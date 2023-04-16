@@ -49,7 +49,7 @@
         
         <!-- MacBook-Illustration -->
         <div class="mb-4 flex justify-center || 2xl:mb-20">
-            <img class="w-80 || sm: w-[35rem] || lg:w-[60rem] || xl:w-[65rem] || 2xl:w-[75rem]" src="assets/img/macbookpro.png" alt="illustartion-macbook">
+            <img class="w-80 || sm: w-[35rem] || md:[42rem] || lg:w-[50rem] || xl:w-[55rem]" src="assets/img/macbookpro.png" alt="illustartion-macbook">
         </div>
     </div>
  </template>
