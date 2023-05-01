@@ -1,0 +1,6576 @@
+[
+  {
+    "name": "Business Administration | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/bachelor-studiengaenge/business-administration.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Mathematik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Kapitalanlage",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschafts- und Privatrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing- und medienpsychologisches Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschung",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzen & Steuern",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Qualitative Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Marketingmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Organisation & Personalmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Corporate Financial Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Anwendungs- und Softwaresysteme",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmenscontrolling",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: VWL",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      }
+    ]
+  },
+  {
+    "name": "Finance & Banking | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/bachelor-studiengaenge/finance-und-banking.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschafts- & Privatrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Kreditgeschäft",
+        "ects": "6"
+      },
+      {
+        "name": "Börsenplanspiel",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Bank-Rechnungswesen & Controlling",
+        "ects": "6"
+      },
+      {
+        "name": "Financial Technology",
+        "ects": "6"
+      },
+      {
+        "name": "Financial Marketing",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschung",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzierung & Bilanzanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Finanzdatenbanken",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Portfolio Management & Behavioral Finance",
+        "ects": "6"
+      },
+      {
+        "name": "Financial Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "6"
+      },
+      {
+        "name": "Corporate Financial Management",
+        "ects": "6"
+      },
+      {
+        "name": "Financial Sustainability",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Anwendungs- & Softwaresysteme",
+        "ects": "6"
+      },
+      {
+        "name": "Derivatives & Structured Finance",
+        "ects": "6"
+      },
+      {
+        "name": "Project: Monetary Systems",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "International Management | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/bachelor-studiengaenge/international-management.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Mathematik",
+        "ects": "6"
+      },
+      {
+        "name": "Project: Essential Business English",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "International Business Law",
+        "ects": "6"
+      },
+      {
+        "name": "Project: Negotiation Strategies",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschung",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzen & Steuern",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Qualitative Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "International Accounting",
+        "ects": "6"
+      },
+      {
+        "name": "Intercultural Competencies",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "International Finance",
+        "ects": "8"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "International Economics",
+        "ects": "6"
+      },
+      {
+        "name": "Anwendungs- und Softwaresysteme",
+        "ects": "6"
+      },
+      {
+        "name": "International Trade",
+        "ects": "6"
+      },
+      {
+        "name": "Project: International Economics",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Marketing & Digitale Medien | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/bachelor-studiengaenge/marketing-und-digitale-medien.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Online-Marketing",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Marketingkonzept",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "IT- und Medienrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Online-Marketing",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschung",
+        "ects": "6"
+      },
+      {
+        "name": "Dienstleistungsmarketing",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Qualitative Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Customer Relationship Management",
+        "ects": "6"
+      },
+      {
+        "name": "Marktforschung",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Turnaround Management",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Content-Management- Systeme",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing Controlling",
+        "ects": "6"
+      },
+      {
+        "name": "Crossmedia Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: VWL",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis / Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Management & Digitalisierung | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/bachelor-studiengaenge/management-und-digitalisierung.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Digital Business",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Mathematik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digital Business",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "IT- und Medienrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing- und medienpsychologisches Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Trend- und Innovationsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen der Softwareentwicklung",
+        "ects": "7"
+      },
+      {
+        "name": "Projekt: Trend- und Innovationsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Big Data & Data Science - Methoden & Technologien",
+        "ects": "6"
+      },
+      {
+        "name": "Künstliche Intelligenz - Methoden & Anwendungen",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Changemanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Anwendungs- und Softwaresysteme",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Informationssicherheit & Datenschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Real Estate Management | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/bachelor-real-estate-management.html",
+    "courses": [
+      {
+        "name": "Einführung in die Immobilienwirtschaft",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Mathematik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Kapitalanlage",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "Immobilien- und Vergaberecht",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing- und medienpsychologisches Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Immobilienmarkt-, Stadt- & Quartiersentwicklung",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzen & Steuern",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Immobilienmarkt",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Immobilienverwaltung & Facility Management",
+        "ects": "6"
+      },
+      {
+        "name": "Organisation & Personalmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Immobilienbewertung",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Immobilien - Controlling & Reporting",
+        "ects": "6"
+      },
+      {
+        "name": "Trends & Innovationen in der Immobilienwirtschaft",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: VWL",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Business Administration | Master of Business Administration (MBA)",
+    "link": "https://www.fom.de/studiengaenge/master-studiengaenge/business-administration-mba.html",
+    "courses": [
+      {
+        "name": "Crash Courses",
+        "ects": null
+      },
+      {
+        "name": "Economics",
+        "ects": null
+      },
+      {
+        "name": "Marketing & Communication",
+        "ects": null
+      },
+      {
+        "name": "HR & Leadership Competencies",
+        "ects": null
+      },
+      {
+        "name": "Financial Management",
+        "ects": null
+      },
+      {
+        "name": "Strategic Corporate Management",
+        "ects": null
+      },
+      {
+        "name": "Strategic Corporate Management",
+        "ects": null
+      },
+      {
+        "name": "International Business Law",
+        "ects": null
+      },
+      {
+        "name": "Value-based Controlling & International Accounting",
+        "ects": null
+      },
+      {
+        "name": "Management Decision-Making",
+        "ects": null
+      },
+      {
+        "name": "Research Methods",
+        "ects": null
+      },
+      {
+        "name": "International Investment",
+        "ects": null
+      },
+      {
+        "name": "International Management",
+        "ects": null
+      },
+      {
+        "name": "International Strategy & Sales Management",
+        "ects": null
+      },
+      {
+        "name": "International Entrepreneurship & Innovation",
+        "ects": null
+      },
+      {
+        "name": "Master Thesis and colloquium",
+        "ects": null
+      }
+    ]
+  },
+  {
+    "name": "Business Consulting & Digital Management | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/master-studiengaenge/business-consulting-und-digital-management.html",
+    "courses": [
+      {
+        "name": "Grundlagen Digital Business",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen Business Consulting",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Business Consulting - Methoden",
+        "ects": "6"
+      },
+      {
+        "name": "Management von Informationstechnologien",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Organisationale Transformation",
+        "ects": "6"
+      },
+      {
+        "name": "Digitalisierung von Geschäftsprozessen",
+        "ects": "5"
+      },
+      {
+        "name": "Design Thinking & Business Model Innovation",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Seminar zur Digitalisierung",
+        "ects": "5"
+      },
+      {
+        "name": "Consultingprojekt: Digital Business Design",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Recht & Compliance",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Finance & Accounting | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/master-studiengaenge/finance-und-accounting.html",
+    "courses": [
+      {
+        "name": "Wirtschaftsprüfung & Controlling",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzen",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Internationale Rechnungslegung & Konzernabschluss",
+        "ects": "8"
+      },
+      {
+        "name": "Corporate Finance",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Behavioral Finance",
+        "ects": "5"
+      },
+      {
+        "name": "Empirie-Projekt: Empirisches Finance & Accounting",
+        "ects": "5"
+      },
+      {
+        "name": "Digitalisierung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Bilanzpolitik & -analyse",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Finanzanalyse",
+        "ects": "5"
+      },
+      {
+        "name": "Asset Management",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Human Resource Management | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/master-studiengaenge/human-resource-management.html",
+    "courses": [
+      {
+        "name": "Strategisches Personalmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Führungs- & Motivationstheorien",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Recht der Arbeitsverhältnisse",
+        "ects": "8"
+      },
+      {
+        "name": "Projekt: Angewandte qualitative Personalforschung",
+        "ects": "5"
+      },
+      {
+        "name": "Personal-Marketing & Recruiting",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Personalentwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Projekt: Angewandte quantitative Personalforschung",
+        "ects": "5"
+      },
+      {
+        "name": "Digitalisierung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Organisationsgestaltung & -entwicklung",
+        "ects": "6"
+      },
+      {
+        "name": "HR-Trends & Entwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Personalcontrolling & Vergütung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment²: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Logistik & Supply Chain Management | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/master-studiengaenge/logistik-und-supply-chain-management.html",
+    "courses": [
+      {
+        "name": "Logistikwirtschaft",
+        "ects": "5"
+      },
+      {
+        "name": "Beschaffung & Global Sourcing",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Internationaler Transport & Transportrecht",
+        "ects": "8"
+      },
+      {
+        "name": "Produktion & Inventory Management",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Supply Chain Management & Logistikstrategie",
+        "ects": "5"
+      },
+      {
+        "name": "Projekt: Distribution & E-Commerce",
+        "ects": "5"
+      },
+      {
+        "name": "Digitalisierung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "E-Logistik",
+        "ects": "5"
+      },
+      {
+        "name": "Projekt: Operations Research & Logistikforschung",
+        "ects": "6"
+      },
+      {
+        "name": "Supply Chain Trends & Logistikcontrolling",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Marketing & Communication | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/master-studiengaenge/marketing-und-communication.html",
+    "courses": [
+      {
+        "name": "Digitalisierung im Marketing",
+        "ects": "5"
+      },
+      {
+        "name": "Werbe- und Medienpsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Kommunikationsinstrumente",
+        "ects": "8"
+      },
+      {
+        "name": "Marketing- und Kommunikationsplanung",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "(e)CRM",
+        "ects": "5"
+      },
+      {
+        "name": "Projekt: Empirisches Forschungsprojekt",
+        "ects": "5"
+      },
+      {
+        "name": "Electronic-Business",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "International Marketing Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Werbe- und Kommunikationskampagnen",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methoden in der Marketing- & Vertriebsforschung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Risk Management & Treasury | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/master-studiengaenge/risk-management-und-treasury.html",
+    "courses": [
+      {
+        "name": "Asset Management & Behavioral Finance",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzmarktaufsicht & -regulierung",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Finanzwirtschaftliche quantitative Methoden",
+        "ects": "8"
+      },
+      {
+        "name": "Liquiditätsrisikomanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Waren-, Wetter- & Energiepreisrisiko-Management",
+        "ects": "5"
+      },
+      {
+        "name": "Empirie-Projekt: Kreditrisikomanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Digitalisierung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Management von Währungsrisiken",
+        "ects": "6"
+      },
+      {
+        "name": "Praxis-Projekt: Angewandtes Risiko- & Treasurymanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Zinsrisikomanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Sales Management | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/master-studiengaenge/sales-management.html",
+    "courses": [
+      {
+        "name": "Verhandlungsführung im Vertrieb",
+        "ects": "5"
+      },
+      {
+        "name": "Angebotspolitik",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Strategisches Vertriebsmanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Vertriebsplanung & -controlling",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "(e)CRM",
+        "ects": "5"
+      },
+      {
+        "name": "Projekt: Empirisches Forschungsprojekt",
+        "ects": "5"
+      },
+      {
+        "name": "Electronic Business",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Operatives Vertriebsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Angewandtes Vertriebsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methoden in der Marketing- & Vertriebsforschung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaft & Management | Master of Arts (M.A.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-management/master-studiengaenge/wirtschaft-und-management.html",
+    "courses": [
+      {
+        "name": "Business Planning",
+        "ects": "8"
+      },
+      {
+        "name": "Recht & Compliance",
+        "ects": "6"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Strategie & digitale Transformation",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschaftspsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Rechnungswesen & Finanzierung",
+        "ects": "7"
+      },
+      {
+        "name": "Transfer Assessment: Transfer Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Controlling-Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Projekt- & Innovationsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Personal & Talentmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmensplanspiel",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing & Kommunikation",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Betriebswirtschaft & Wirtschaftspsychologie | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-psychologie/bachelor-studiengang/betriebswirtschaft-und-wirtschaftspsychologie.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Sozialpsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Biopsychologie & Allgemeine Psychologie I",
+        "ects": "6"
+      },
+      {
+        "name": "Allgemeine Psychologie II",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Differentielle Psychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Datenerhebung & Statistik",
+        "ects": "6"
+      },
+      {
+        "name": "Datenauswertung mit R",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten - Wirtschaftspsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitatives Forschungsprojekt",
+        "ects": "6"
+      },
+      {
+        "name": "Psychologische Diagnostik",
+        "ects": "6"
+      },
+      {
+        "name": "Angewandte Themen der Differentiellen Psychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Psychologische Gesprächskompetenz",
+        "ects": "6"
+      },
+      {
+        "name": "Arbeits- & Organisationspsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Praxis Diagnostischer Verfahren",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Turnaround Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitatives Forschungsprojekt",
+        "ects": "6"
+      },
+      {
+        "name": "Personalpsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Angewandte Arbeits-, Organisations- & Personalpsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Markt- & Werbepsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Verhaltensökonomik",
+        "ects": "6"
+      },
+      {
+        "name": "Angewandte Wirtschaftspsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé - Wirtschaftspsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftspsychologie | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-psychologie/master-studiengang/wirtschaftspsychologie.html",
+    "courses": [
+      {
+        "name": "Sozialpsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Allgemeine & Biopsychologie",
+        "ects": "7"
+      },
+      {
+        "name": "Quantitative Forschungsmethoden",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Arbeits- & Organisationspsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Markt- & Werbepsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschungsmethoden",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Psychologische Diagnostik",
+        "ects": "5"
+      },
+      {
+        "name": "Wahlmodul (Praxis-Projekt)",
+        "ects": "6"
+      },
+      {
+        "name": "Personal- & Organisationsentwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Führungspsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Psychologische Handlungskompetenz",
+        "ects": "5"
+      },
+      {
+        "name": "Wirtschaftspsychologische Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftspsychologie & Beratung | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-psychologie/master-studiengaenge/wirtschaftspsychologie-und-beratung.html",
+    "courses": [
+      {
+        "name": "Psychologie der Entscheidung",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Kommunikation, Moderation & Training",
+        "ects": "5"
+      },
+      {
+        "name": "Praxis der Datenanalyse",
+        "ects": "7"
+      },
+      {
+        "name": "Marktforschung & Konsumentenpsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmen in der Gründung",
+        "ects": "5"
+      },
+      {
+        "name": "Mediation - Methoden der Konfliktklärung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Personalpsychologie³",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmen im nachhaltigen Wachstum",
+        "ects": "5"
+      },
+      {
+        "name": "Arbeiten als Coach",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Arbeits- & organisationspsychologische Beratung³",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmen in der Konsolidierung",
+        "ects": "5"
+      },
+      {
+        "name": "Angewandte Forschung³",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Steuerrecht | Bachelor of Laws (LL.B.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-recht/bachelor-studiengaenge/steuerrecht.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "Einkommensteuer",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle Einkommensteuer",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Öffentliches Recht",
+        "ects": "6"
+      },
+      {
+        "name": "Umsatzsteuer",
+        "ects": "6"
+      },
+      {
+        "name": "Bürgerliches Recht: Einführung und Fälle",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Verfahrens- und Steuerstrafrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Steuerliche Gewinnermittlung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Gesellschaftsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Besteuerung von Personenunternehmen",
+        "ects": "6"
+      },
+      {
+        "name": "Gewerbe- & Grundsteuer",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Turnaround Management",
+        "ects": "6"
+      },
+      {
+        "name": "Körperschaftsteuer",
+        "ects": "6"
+      },
+      {
+        "name": "Erbschaft- & Grunderwerbsteuer",
+        "ects": "6"
+      },
+      {
+        "name": "Umwandlungssteuerrecht",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Repetitorium Steuerrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Internationales Steuerrecht & Tax Transformation",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt Steuerplanung/DATEV Führerschein",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsrecht | Bachelor of Laws (LL.B.)",
+    "link": "https://www.fom.de/studiengaenge/wirtschaft-und-recht/bachelor-studiengaenge/wirtschaftsrecht.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Rechtsmethoden",
+        "ects": "6"
+      },
+      {
+        "name": "BGB I",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle BGB I",
+        "ects": "7"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Öffentliches Recht",
+        "ects": "6"
+      },
+      {
+        "name": "BGB II",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle BGB II",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschaftsstrafrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle Wirtschaftsstrafrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Gesellschaftsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Arbeitsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle Gesellschaftsrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Verhandlung & Vertrag",
+        "ects": "6"
+      },
+      {
+        "name": "Insolvenzrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Verhandlung & Vertrag",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Repetitorium Wirtschaftsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Data Law & Legal Transformation",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle Repetitorium Wirtschaftsrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Recht & Management | Master of Arts (M.A.)",
+    "link": "https://www.fom.de/mrm.html",
+    "courses": [
+      {
+        "name": "Business Planning",
+        "ects": "8"
+      },
+      {
+        "name": "Rechtsmethoden",
+        "ects": "8"
+      },
+      {
+        "name": "Bürgerliches Recht",
+        "ects": "5"
+      },
+      {
+        "name": "Strategie & digitale Transformation",
+        "ects": "6"
+      },
+      {
+        "name": "Recht der Arbeitsverhältnisse",
+        "ects": "8"
+      },
+      {
+        "name": "Öffentliches Recht",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment²: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Vertragsprojekt",
+        "ects": "5"
+      },
+      {
+        "name": "Internetrecht & Datenschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Gesellschafts- und Unternehmensrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment²: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschaftsstrafrecht & Compliance",
+        "ects": "7"
+      },
+      {
+        "name": "Haftungsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment²: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Taxation | Master of Laws (LL.M.)",
+    "link": "https://www.fom.de/mtax.html",
+    "courses": [
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Ertragsteuern",
+        "ects": "7"
+      },
+      {
+        "name": "Gesellschafts- und Unternehmensrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Handels- und Steuerbilanzen",
+        "ects": "5"
+      },
+      {
+        "name": "Wirtschaftsstrafrecht & Compliance",
+        "ects": "7"
+      },
+      {
+        "name": "Transfer Assessment¹: Transferbericht 1",
+        "ects": null
+      },
+      {
+        "name": "Einkommensteuerrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Verfahrensrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Körperschaftsteuer & Gewerbesteuer",
+        "ects": "5"
+      },
+      {
+        "name": "Umwandlungssteuerrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment¹: Transferbericht 2",
+        "ects": null
+      },
+      {
+        "name": "Umsatzsteuerrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Bilanzsteuerrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Erbschaftsteuerrecht & internationales Steuerrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment¹: Transferbericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsrecht | Master of Laws (LL.M.)",
+    "link": "https://www.fom.de/mwr.html",
+    "courses": [
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Gesellschafts- und Unternehmensrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Privatrecht - Fallstudien",
+        "ects": "7"
+      },
+      {
+        "name": "Wirtschaftsstrafrecht & Compliance",
+        "ects": "7"
+      },
+      {
+        "name": "Haftungsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Internetrecht & Datenschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Recht der Arbeitsverhältnisse",
+        "ects": "8"
+      },
+      {
+        "name": "VERTIEFUNGSRICHTUNG: Verträge³",
+        "ects": "5"
+      },
+      {
+        "name": "Verbraucher",
+        "ects": null
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Insolvenzrecht & Sanierung",
+        "ects": "6"
+      },
+      {
+        "name": "VERTIEFUNGSRICHTUNG: Verträge",
+        "ects": "10"
+      },
+      {
+        "name": "Praxisprojekt",
+        "ects": null
+      },
+      {
+        "name": "Unternehmen",
+        "ects": null
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Informatik | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/it-management/bachelor-studiengaenge/informatik.html",
+    "courses": [
+      {
+        "name": "Mathematische Grundlagen der Informatik",
+        "ects": "6"
+      },
+      {
+        "name": "Konzepte der Programmierung",
+        "ects": "6"
+      },
+      {
+        "name": "Theoretische Informatik",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Methoden der Informatik",
+        "ects": "6"
+      },
+      {
+        "name": "Datenbanken",
+        "ects": "6"
+      },
+      {
+        "name": "Cloudtechnologie",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliche Informationssysteme",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Konzepte dynamischer Programmiersprachen",
+        "ects": "6"
+      },
+      {
+        "name": "Business Intelligence & Analytics",
+        "ects": "6"
+      },
+      {
+        "name": "KI",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Software Engineering",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Infrastruktur",
+        "ects": "6"
+      },
+      {
+        "name": "UX- und Webtechnologien",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Softwareentwicklung & UX",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data & Data Science",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebssysteme",
+        "ects": "6"
+      },
+      {
+        "name": "Verteilte Systeme",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Forschungsmethoden",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Technologietrends & Innovationsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Informationssicherheit & Datenschutz",
+        "ects": "6"
+      },
+      {
+        "name": "Cyber-Attacken",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Embedded Systems, IoT, SmartX",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Seminar zur Bachelor-Thesis",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis / Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsinformatik | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/it-management/bachelor-studiengang/wirtschaftsinformatik.html",
+    "courses": [
+      {
+        "name": "Wirtschaftsinformatik Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Mathematische Grundlagen der Informatik",
+        "ects": "6"
+      },
+      {
+        "name": "Konzepte der Programmierung",
+        "ects": "6"
+      },
+      {
+        "name": "Management Grundlagen",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Datenbanken",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschafts- und IT-Recht",
+        "ects": "6"
+      },
+      {
+        "name": "Beschaffung & Produktion",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Algorithmen und Datenstrukturen",
+        "ects": "6"
+      },
+      {
+        "name": "Konzepte dynamischer Programmiersprachen",
+        "ects": "6"
+      },
+      {
+        "name": "Geschäftsprozessmanagement & -automatisierung",
+        "ects": "6"
+      },
+      {
+        "name": "Rechnungswesen & Controlling",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Software Engineering",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Infrastruktur",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliche Informationssysteme & E-Business",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: ERP",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data & Data Science",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebssysteme",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliche Anwendungen der KI",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Forschungsmethoden",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Informationssicherheit & Datenschutz",
+        "ects": "6"
+      },
+      {
+        "name": "Informations- und IT-Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Anwendungsentwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis / Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsinformatik - Business Information Systems | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/it-management/bachelor-studiengang/wirtschaftsinformatik-business-information-systems.html",
+    "courses": [
+      {
+        "name": "Business English",
+        "ects": "5"
+      },
+      {
+        "name": "Datenbankmanagement",
+        "ects": "7"
+      },
+      {
+        "name": "E-Business",
+        "ects": "5"
+      },
+      {
+        "name": "Konzepte des objektorientierten Programmierens",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Methoden der Informatik",
+        "ects": "5"
+      },
+      {
+        "name": "Fallstudie / Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Betriebswirtschaft & Unternehmensorganisation",
+        "ects": "7"
+      },
+      {
+        "name": "IT- und Medienrecht",
+        "ects": "5"
+      },
+      {
+        "name": "IT Infrastruktur",
+        "ects": "8"
+      },
+      {
+        "name": "Konzepte des skriptsprachenorientierten Programmierens",
+        "ects": "7"
+      },
+      {
+        "name": "English for information technologies",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Geschäftsprozessmodellierung",
+        "ects": "5"
+      },
+      {
+        "name": "Verteilte Systeme",
+        "ects": "5"
+      },
+      {
+        "name": "Algorithmen und Datenstrukturen",
+        "ects": "8"
+      },
+      {
+        "name": "IT Management",
+        "ects": "5"
+      },
+      {
+        "name": "Software Engineering",
+        "ects": "7"
+      },
+      {
+        "name": "IT Trends & Innovation",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data & Data Science",
+        "ects": "5"
+      },
+      {
+        "name": "Web Technologie",
+        "ects": "5"
+      },
+      {
+        "name": "Anwendungsprojekt",
+        "ects": "5"
+      },
+      {
+        "name": "Informationsmanagement & Datenschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Strategisches Management",
+        "ects": "7"
+      },
+      {
+        "name": "Vorbereitungsseminar zur Bachelor Thesis",
+        "ects": "3"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium²",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Big Data & Business Analytics | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/it-management/master-studiengang/big-data-und-business-analytics.html",
+    "courses": [
+      {
+        "name": "Big Data Architektur & Infrastruktur",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data Analytics",
+        "ects": "6"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Angewandte Programmierung",
+        "ects": "6"
+      },
+      {
+        "name": "Analyse semi- & unstrukturierter Daten",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Projektmanagement von Big Data Projekten",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data Analyseprojekt",
+        "ects": "6"
+      },
+      {
+        "name": "Anwendungsfelder Business Analytics",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Ethik & Recht",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data Consultingprojekt",
+        "ects": "6"
+      },
+      {
+        "name": "Strategische Geschäftsmodellentwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "IT Management | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/it-management/master-studiengaenge/it-management.html",
+    "courses": [
+      {
+        "name": "IT-Architekturen",
+        "ects": "5"
+      },
+      {
+        "name": "eBusiness & Betriebliche Anwendungssysteme",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Sicherheitsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Interdisziplinäre Aspekte der Wirtschaftsinformatik",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Geschäftsprozessmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Projekt: Business Intelligence",
+        "ects": "5"
+      },
+      {
+        "name": "Projektseminar: IT-Projektmanagement & Software Engineering",
+        "ects": "7"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Wissens- & Informationsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Projekt: Aktuelle Themen der Wirtschaftsinformatik",
+        "ects": "5"
+      },
+      {
+        "name": "IT-Recht & Compliance",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Maschinenbau & Digitale Technologien | Bachelor of Engineering (B.Eng.)",
+    "link": "https://www.fom.de/die-studiengaenge/ingenieurwesen/bachelor-studiengaenge/maschinenbau-und-digitale-technologien.html",
+    "courses": [
+      {
+        "name": "Ingenieurmathematik I",
+        "ects": "6"
+      },
+      {
+        "name": "Moderne Werk- und Betriebsstoffe",
+        "ects": "6"
+      },
+      {
+        "name": "Industrielle Betriebssysteme & Netzwerke",
+        "ects": "6"
+      },
+      {
+        "name": "Industrielle Softwareentwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Technische Mechanik",
+        "ects": "6"
+      },
+      {
+        "name": "Laborpraktikum",
+        "ects": "6"
+      },
+      {
+        "name": "Messtechnik",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen Konstruktion & Maschinenelemente",
+        "ects": "6"
+      },
+      {
+        "name": "Strömungsmechanik",
+        "ects": "6"
+      },
+      {
+        "name": "Angewandte Ingenieurmathematik",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Elektrotechnik & Mikrosystemtechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Dynamik & Robotik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Konstruktion & Computer Aided Design",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Produktionsverfahren & Produktionstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Thermodynamik",
+        "ects": "6"
+      },
+      {
+        "name": "Antriebe",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Smart Factory",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Automatisierungstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Zertifikat Qualitätsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsingenieurwesen | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/ingenieurwesen/bachelor-studiengaenge/wirtschaftsingenieurwesen.html",
+    "courses": [
+      {
+        "name": "Ingenieurmathematik I",
+        "ects": "6"
+      },
+      {
+        "name": "Moderne Werk- und Betriebsstoffe",
+        "ects": "6"
+      },
+      {
+        "name": "Industrielle Informationstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Internes & Externes Rechnungswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Ingenieurmathematik II",
+        "ects": "6"
+      },
+      {
+        "name": "Technische Mechanik",
+        "ects": "6"
+      },
+      {
+        "name": "Finanzierung & Investition Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschafts- und Patentrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Naturwissenschaften für Ingenieure",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen Konstruktion & Maschinenelemente",
+        "ects": "6"
+      },
+      {
+        "name": "Produktionsplanung und -steuerung",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: ERP-Systeme",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Industrial Data Engineering",
+        "ects": "6"
+      },
+      {
+        "name": "Elektrotechnik & Mikrosystemtechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Logistik & Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Supply Chain Management",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Produktionsverfahren & Produktionstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing & Technischer Vertrieb",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Security-Management",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Produktinnovation & Service Engineering",
+        "ects": "6"
+      },
+      {
+        "name": "Smart Factory",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmensführung",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Zertifikat Qualitätsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Technologie- und Innovationsmanagement | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/ingenieurwesen/master-studiengaenge/technologie-und-innovationsmanagement.html",
+    "courses": [
+      {
+        "name": "Innovationsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Globalisierung & internationale Wirtschaftsbeziehungen",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Technologiemanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Patent- & Rechtswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Product-Lifecycle-Management",
+        "ects": "6"
+      },
+      {
+        "name": "Praxis-Projekt: Informations- & Wissensmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Operations Research",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Digitalisierung in Industrie & Dienstleitung",
+        "ects": "6"
+      },
+      {
+        "name": "Empirie-Projekt: Strategie & Entrepreneurship",
+        "ects": "5"
+      },
+      {
+        "name": "Management von Qualität",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment²: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsingenieurwesen | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/ingenieurwesen/master-studiengaenge/wirtschaftsingenieurwesen.html",
+    "courses": [
+      {
+        "name": "Controlling & Finanzierung",
+        "ects": "5"
+      },
+      {
+        "name": "Technische Systeme & Digitalisierung",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Technik & Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Technologiemanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Internationales Vertriebsmanagement & Marketing",
+        "ects": "6"
+      },
+      {
+        "name": "Internationales Projekt- und Claimmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "English for technical management",
+        "ects": "5"
+      },
+      {
+        "name": "Praxis-Transferprojekt",
+        "ects": "5"
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Management im Gesundheitswesen | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/die-studiengaenge/gesundheit-und-soziales/bachelor-studiengaenge/management-im-gesundheitswesen.html",
+    "courses": [
+      {
+        "name": "Management Basics im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Aufbau des Gesundheitssystems",
+        "ects": "6"
+      },
+      {
+        "name": "Recht im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen der digitalen Gesundheit",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Medizin Basics & Gesundheitswissenschaften",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmensrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitsökonomie",
+        "ects": "6"
+      },
+      {
+        "name": "Trends und Zukunftsforschung im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen Leistungsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Ethik, Interkulturelles & Diversity Management",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Innovations- und Wissensmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Geschäftsmodelle im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Personalmanagement & Leadership in Gesundheitseinrichtungen",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing und Kommunikation im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Kommunikations- & Verhandlungsführung",
+        "ects": "6"
+      },
+      {
+        "name": "Case Management",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Unternehmensmanagement & Entrepreneurship in Gesundheitseinrichtungen",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitspolitik & Systemvergleich",
+        "ects": "6"
+      },
+      {
+        "name": "Praxisprojekt",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/ Kolloqium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Gesundheitspsychologie & Medizinpädagogik | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/gesundheit-und-soziales/bachelor-studiengaenge/gesundheitspsychologie-und-medizinpaedagogik.html",
+    "courses": [
+      {
+        "name": "Einführung in die Psychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Medizin Basics & Gesundheitswissenschaften",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitspsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitssport",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Vertiefung Medizin Basics & Gesundheitswissenschaften",
+        "ects": "6"
+      },
+      {
+        "name": "Medizinpädagogik und ihre Didaktik",
+        "ects": "6"
+      },
+      {
+        "name": "Ernährung",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Management Basics in Einrichtungen des Sozial- und Gesundheitssystems",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitskommunikation",
+        "ects": "6"
+      },
+      {
+        "name": "Mentale Gesundheit",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Pädagogik der Kindheit und Jugend",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen Gesprächsführung & Beratung",
+        "ects": "6"
+      },
+      {
+        "name": "Erlebnispädagogik",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Andragogik",
+        "ects": "6"
+      },
+      {
+        "name": "Case Management im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Vertiefung Gesprächsführung & Beratung",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Gesundheitskommunikation (medienpädagogisches Projekt)",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitätsmanagement im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Pädagogisches Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Management in der Gefahrenabwehr | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/die-studiengaenge/gesundheit-und-soziales/bachelor-studiengaenge/management-in-der-gefahrenabwehr.html",
+    "courses": [
+      {
+        "name": "Psychosoziale Notfallversorgung & Psychosoziales Krisenmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen des Staatsaufbaus",
+        "ects": "6"
+      },
+      {
+        "name": "Arbeitssicherheit & Gesundheitsschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Management Basics im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Krisenmanagement in der globalisierten Welt",
+        "ects": "6"
+      },
+      {
+        "name": "Geoinformationssysteme & Risikoanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Crew Resource & Fehlermanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Risiko- & Krisenkommunikation",
+        "ects": "6"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "6"
+      },
+      {
+        "name": "Gefahrenabwehrrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Einsatzvorplanung & Einsatzvorbereitung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Systematik von Sicherheit, Gefahrenabwehr & Hilfeleistung",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Kommunikation & Koordination in der Gefahrenabwehr",
+        "ects": "6"
+      },
+      {
+        "name": "Strategischer Bevölkerungsschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Safety & Security im Einsatz",
+        "ects": "6"
+      },
+      {
+        "name": "Informationssicherheit & Datenschutz im Hilfeleistungssystem",
+        "ects": "6"
+      },
+      {
+        "name": "Bedarfsplanung in der Gefahrenabwehr",
+        "ects": "6"
+      },
+      {
+        "name": "MANV- & Krankenhausalarmplanung",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Aufbau & Leitung von Krisenstäben",
+        "ects": "6"
+      },
+      {
+        "name": "Beschaffung & Finanzierung im Hilfeleistungssystem",
+        "ects": "6"
+      },
+      {
+        "name": "Logistik im Hilfeleistungssystem",
+        "ects": "6"
+      },
+      {
+        "name": "Management von Menschenströmen & Veranstaltungen",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium",
+        "ects": "15"
+      }
+    ]
+  },
+  {
+    "name": "Pflege | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/gesundheit-und-soziales/bachelor-studiengaenge/pflege.html",
+    "courses": [
+      {
+        "name": "Grundlagen Pflegemanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Einführung Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen der Pflegewissenschaft",
+        "ects": "8"
+      },
+      {
+        "name": "Lern- und Arbeitstechniken",
+        "ects": "5"
+      },
+      {
+        "name": "Beratungs- und Gesprächskompetenz",
+        "ects": "7"
+      },
+      {
+        "name": "Recht im Gesundheits- und Sozialwesen",
+        "ects": "7"
+      },
+      {
+        "name": "Pflegepädagogik",
+        "ects": "7"
+      },
+      {
+        "name": "Wund- und Schmerzmanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Führung & Kompetenzen in der Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Ethik im Gesundheits- und Sozialwesen",
+        "ects": "5"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Wahlpflichtmodul: Geriatrische Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Wahlpflichtmodul: Pädiatrische Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Case Management",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Pflege Informationstechnologien",
+        "ects": "7"
+      },
+      {
+        "name": "Qualitätsmanagement in der Pflege",
+        "ects": "8"
+      },
+      {
+        "name": "Seminar zur Bachelor-Thesis",
+        "ects": "3"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium",
+        "ects": "15"
+      }
+    ]
+  },
+  {
+    "name": "Pflege & Digitalisierung | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/die-studiengaenge/gesundheit-und-soziales/bachelor-studiengaenge/pflege-und-digitalisierung.html",
+    "courses": [
+      {
+        "name": "Grundlagen Pflegemanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Einführung Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen der Pflegewissenschaft",
+        "ects": "8"
+      },
+      {
+        "name": "Lern- und Arbeitstechniken",
+        "ects": "5"
+      },
+      {
+        "name": "Beratungs- und Gesprächskompetenz",
+        "ects": "7"
+      },
+      {
+        "name": "Digitale Pflege & Informationstechnologien",
+        "ects": "7"
+      },
+      {
+        "name": "Pflege- und Medienpädagogik",
+        "ects": "7"
+      },
+      {
+        "name": "Führung & Kompetenzen in der Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Recht im Gesundheits- und Sozialwesen",
+        "ects": "7"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Digital Change Management",
+        "ects": "7"
+      },
+      {
+        "name": "Case Management",
+        "ects": "6"
+      },
+      {
+        "name": "Ethik im Gesundheits- und Sozialwesen",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitätsmanagement in der Pflege",
+        "ects": "8"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium",
+        "ects": "15"
+      }
+    ]
+  },
+  {
+    "name": "Pflegemanagement | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/gesundheit-und-soziales/bachelor-studiengaenge/pflegemanagement-0.html",
+    "courses": [
+      {
+        "name": "Medizinische Grundlagen *",
+        "ects": "7"
+      },
+      {
+        "name": "Grundlagen der professionellen Pflege *",
+        "ects": "7"
+      },
+      {
+        "name": "Grundlagen Pflegemanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Einführung Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Recht im Gesundheits- und Sozialwesen",
+        "ects": "7"
+      },
+      {
+        "name": "Aufbau des Gesundheits- und Sozialsystems",
+        "ects": "7"
+      },
+      {
+        "name": "Grundlagen der Pflegewissenschaft",
+        "ects": "8"
+      },
+      {
+        "name": "Lern- und Arbeitstechniken",
+        "ects": "5"
+      },
+      {
+        "name": "Personalmanagement in der Pflege",
+        "ects": "8"
+      },
+      {
+        "name": "Beratungs- und Gesprächskompetenz",
+        "ects": "7"
+      },
+      {
+        "name": "Ethik im Gesundheits- und Sozialwesen",
+        "ects": "5"
+      },
+      {
+        "name": "Pflegepädagogik",
+        "ects": "7"
+      },
+      {
+        "name": "Führung & Kompetenzen in der Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Gesundheits- und Sozialökonomie",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Internes & Externes Rechnungswesen",
+        "ects": "7"
+      },
+      {
+        "name": "Projektmanagement in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Organisation & Change Management",
+        "ects": "7"
+      },
+      {
+        "name": "Wahlpflichtmodul: Entrepreneurship in der Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Wahlpflichtmodul: Geriatrische Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Marketing in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Case Management",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Pflege & Informationstechnologien",
+        "ects": "7"
+      },
+      {
+        "name": "Qualitätsmanagement in der Pflege",
+        "ects": "8"
+      },
+      {
+        "name": "Seminar zur Bachelor-Thesis",
+        "ects": "3"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium",
+        "ects": "15"
+      }
+    ]
+  },
+  {
+    "name": "Primärmedizinisches Versorgungs- und Praxismanagement | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/die-studiengaenge/gesundheit-und-soziales/bachelor-studiengaenge/primaermedizinisches-versorgungs-und-praxismanagement.html",
+    "courses": [
+      {
+        "name": "Einführung Praxismanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Anamnese & Untersuchungstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Spezielle primärmedizinische Krankheitslehre",
+        "ects": "7"
+      },
+      {
+        "name": "Patientensicherheit, Risiko- und Qualitätsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Informationstechnologien & E-Health in der Arztpraxis",
+        "ects": "6"
+      },
+      {
+        "name": "Gesprächsführung mit dem Patienten",
+        "ects": "5"
+      },
+      {
+        "name": "Vertragsärztliche Versorgung & Abrechnung",
+        "ects": "5"
+      },
+      {
+        "name": "Data Literacy in der medizinischen Praxis",
+        "ects": "6"
+      },
+      {
+        "name": "Besonderheiten des älteren Patienten",
+        "ects": "7"
+      },
+      {
+        "name": "Psychosoziale Probleme des Patienten",
+        "ects": "8"
+      },
+      {
+        "name": "Recht in der ambulanten medizinischen Versorgung",
+        "ects": "5"
+      },
+      {
+        "name": "Versorgung des chronisch kranken Patienten",
+        "ects": "6"
+      },
+      {
+        "name": "Case Management im Gesundheitswesen",
+        "ects": "7"
+      },
+      {
+        "name": "Sozialmedizin, Prävention & Rehabilitation",
+        "ects": "5"
+      },
+      {
+        "name": "Bachelor-Thesis",
+        "ects": "12"
+      },
+      {
+        "name": "Kolloquium",
+        "ects": "3"
+      }
+    ]
+  },
+  {
+    "name": "Soziale Arbeit | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/gesundheit-und-soziales/bachelor-studiengaenge/soziale-arbeit-0.html",
+    "courses": [
+      {
+        "name": "Grundlagen der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Lebensphasenorientierte Handlungsfelder",
+        "ects": "6"
+      },
+      {
+        "name": "Professionelle Beziehungsgestaltung im Kontext der Biografie",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen der Pädagogik/Sozialpädagogik",
+        "ects": "6"
+      },
+      {
+        "name": "Recht in der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Lebenslagenorientierte Handlungsfelder",
+        "ects": "6"
+      },
+      {
+        "name": "Gesprächsführung",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen Methoden der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Diversity & Teilhabe (Vertiefung Lebenslagen)",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Beratung in der Sozialen Arbeit (inkl. Praxiswerkstatt)",
+        "ects": "6"
+      },
+      {
+        "name": "Praxismodul qualitative Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Sozialmedizin",
+        "ects": "6"
+      },
+      {
+        "name": "Sozialmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Lebensraum- und kontextorientierte Handlungsfelder",
+        "ects": "6"
+      },
+      {
+        "name": "Vertiefung Methoden der Sozialen Arbeit",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Ethik & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Interkulturelle Aspekte der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Professionsbezogene Handlungsfelder",
+        "ects": "6"
+      },
+      {
+        "name": "Finanzierung der Sozialen Arbeit",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      }
+    ]
+  },
+  {
+    "name": "Medizinmanagement | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/gesundheit-und-soziales/master-studiengang/medizinmanagement.html",
+    "courses": [
+      {
+        "name": "Grundlagen Medizinmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Personalmanagement im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitspolitik",
+        "ects": "6"
+      },
+      {
+        "name": "Recht im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Führung & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Finanzierung & Controlling im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitätsmanagement im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Digitalisierung im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Entrepreneurship & Innovationsmanagement im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitsökonomie",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Pädagogik & Digitales Lernen | Master of Arts (M.A.)",
+    "link": "https://www.fom.de/studiengaenge/gesundheit-und-soziales/master-studiengaenge/paedagogik-und-digitales-lernen.html",
+    "courses": [
+      {
+        "name": "Einführung in die Pädagogik über die Lebensspanne",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung in die Didaktik",
+        "ects": "5"
+      },
+      {
+        "name": "Einführung in die pädagogische Psychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Medienbildung & digitales Lernen",
+        "ects": "5"
+      },
+      {
+        "name": "Lernbegleitung & Lerncoaching",
+        "ects": "5"
+      },
+      {
+        "name": "Bildungsforschung - Qualitative & quantitative Forschungsmethoden",
+        "ects": "5"
+      },
+      {
+        "name": "(Digitalisierte) Lehr-Lern-Methoden & -Arrangements",
+        "ects": "5"
+      },
+      {
+        "name": "Didaktik-Projekt 1: Projektbericht",
+        "ects": null
+      },
+      {
+        "name": "Umgang  mit Heterogenität & individuelle Förderung",
+        "ects": "5"
+      },
+      {
+        "name": "Gestaltung digitaler Bildungsangebote²",
+        "ects": "5"
+      },
+      {
+        "name": "Pädagogische Diagnostik & Evaluation",
+        "ects": "5"
+      },
+      {
+        "name": "Didaktik-Projekt 2: Projektbericht",
+        "ects": null
+      },
+      {
+        "name": "Organisationsentwicklung & -beratung",
+        "ects": "5"
+      },
+      {
+        "name": "Professionalität & Teamentwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Anwendungsfelder digitaler Lernmedien²",
+        "ects": "5"
+      },
+      {
+        "name": "Didaktik-Projekt 3 : Projektbericht",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Public Health | Master of Science (M.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/gesundheit-und-soziales/master-studiengang/public-health.html",
+    "courses": [
+      {
+        "name": "Grundlagen Public Health",
+        "ects": "5"
+      },
+      {
+        "name": "Medizinische Grundlagen & Epidemiologie",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliche Methodik",
+        "ects": "5"
+      },
+      {
+        "name": "Entscheidungsorientiertes Management",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitspolitik",
+        "ects": "6"
+      },
+      {
+        "name": "Recht im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Gesundheitspsychologie & -soziologie",
+        "ects": "8"
+      },
+      {
+        "name": "Qualitätsmanagement im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Digitalisierung im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Prävention & Gesundheitsberichterstattung",
+        "ects": "5"
+      },
+      {
+        "name": "Gesundheitsökonomie",
+        "ects": "5"
+      },
+      {
+        "name": "Versorgungsforschung & Gesundheitssysteme",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Soziale Arbeit | Master of Arts (M.A.)",
+    "link": "https://www.fom.de/master-soziale-arbeit.html",
+    "courses": [
+      {
+        "name": "Wissenschaft der Sozialen Arbeit",
+        "ects": "5"
+      },
+      {
+        "name": "Soziale Arbeit im interdisziplinären Kontext",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitative Forschung & Evaluation in der Praxis",
+        "ects": "5"
+      },
+      {
+        "name": "Beratung & Beratungskonzepte",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen systemischer Gesprächsführung",
+        "ects": "6"
+      },
+      {
+        "name": "Werteorientiertes Management",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Systemische Organisationsentwicklung",
+        "ects": "6"
+      },
+      {
+        "name": "Digitalisierung in der Sozialen Arbeit",
+        "ects": "5"
+      },
+      {
+        "name": "Transfer Assessment: Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Führen & Leiten in der Sozialen Arbeit",
+        "ects": "5"
+      },
+      {
+        "name": "Sozialmarketing",
+        "ects": "6"
+      },
+      {
+        "name": "Supervision & Coaching",
+        "ects": "6"
+      },
+      {
+        "name": "Transfer Assessment¹ Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Master-Thesis und Kolloquium",
+        "ects": "25"
+      }
+    ]
+  },
+  {
+    "name": "Business Administration | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/business-administration.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Mathematik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Kapitalanlage",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschafts- und Privatrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing- und medienpsychologisches Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschung",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzen & Steuern",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Qualitative Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Marketingmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Organisation & Personalmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Corporate Financial Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Anwendungs- und Softwaresysteme",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmenscontrolling",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: VWL",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Business Administration - dual kompakt | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge/business-administration-dual-kompakt.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "10"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "8"
+      },
+      {
+        "name": "Kompetenz- & Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Einführung Mathematik",
+        "ects": "5"
+      },
+      {
+        "name": "Theorie-Praxis-Transfer-Bericht 1",
+        "ects": null
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "5"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "5"
+      },
+      {
+        "name": "Wirtschafts- und Privatrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing- und medienpsychologisches Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Theorie-Praxis-Transfer-Bericht 2",
+        "ects": null
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "7"
+      },
+      {
+        "name": "Bilanzen & Steuern",
+        "ects": "7"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "7"
+      },
+      {
+        "name": "Wissenschaftliche Methoden - Qualitativ",
+        "ects": "4"
+      },
+      {
+        "name": "Theorie-Praxis-Transfer-Bericht 3",
+        "ects": null
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "5"
+      },
+      {
+        "name": "Marketingmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Organisation & Personalmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Theorie-Praxis-Transfer-Bericht 4",
+        "ects": null
+      },
+      {
+        "name": "Anwendungs- und Softwaresysteme",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Corporate Financial Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "Unternehmenscontrolling",
+        "ects": "6"
+      },
+      {
+        "name": "Theorie-Praxis-Transfer-Bericht 5",
+        "ects": null
+      },
+      {
+        "name": "Turnaround Management",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Finance & Banking | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge/finance-und-banking.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschafts- & Privatrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Kreditgeschäft",
+        "ects": "6"
+      },
+      {
+        "name": "Börsenplanspiel",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Bank-Rechnungswesen & Controlling",
+        "ects": "6"
+      },
+      {
+        "name": "Financial Technology",
+        "ects": "6"
+      },
+      {
+        "name": "Financial Marketing",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschung",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzierung & Bilanzanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Finanzdatenbanken",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Portfolio Management & Behavioral Finance",
+        "ects": "6"
+      },
+      {
+        "name": "Financial Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "6"
+      },
+      {
+        "name": "Corporate Financial Management",
+        "ects": "6"
+      },
+      {
+        "name": "Financial Sustainability",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Anwendungs- & Softwaresysteme",
+        "ects": "6"
+      },
+      {
+        "name": "Derivatives & Structured Finance",
+        "ects": "6"
+      },
+      {
+        "name": "Project: Monetary Systems",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "International Management | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/international-management.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Mathematik",
+        "ects": "6"
+      },
+      {
+        "name": "Project: Essential Business English",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "International Business Law",
+        "ects": "6"
+      },
+      {
+        "name": "Project: Negotiation Strategies",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschung",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzen & Steuern",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Qualitative Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "International Accounting",
+        "ects": "6"
+      },
+      {
+        "name": "Intercultural Competencies",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "International Finance",
+        "ects": "8"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "International Economics",
+        "ects": "6"
+      },
+      {
+        "name": "Anwendungs- und Softwaresysteme",
+        "ects": "6"
+      },
+      {
+        "name": "International Trade",
+        "ects": "6"
+      },
+      {
+        "name": "Project: International Economics",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Marketing & Digitale Medien | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/marketing-und-digitale-medien-0.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Online-Marketing",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Marketingkonzept",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "IT- und Medienrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Online-Marketing",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Forschung",
+        "ects": "6"
+      },
+      {
+        "name": "Dienstleistungsmarketing",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Qualitative Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Customer Relationship Management",
+        "ects": "6"
+      },
+      {
+        "name": "Marktforschung",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Turnaround Management",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Content-Management- Systeme",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing Controlling",
+        "ects": "6"
+      },
+      {
+        "name": "Crossmedia Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: VWL",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis / Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Management & Digitalisierung | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge/management-und-digitalisierung.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Digital Business",
+        "ects": "6"
+      },
+      {
+        "name": "Einführung Mathematik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digital Business",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "IT- und Medienrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing- und medienpsychologisches Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Trend- und Innovationsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen der Softwareentwicklung",
+        "ects": "7"
+      },
+      {
+        "name": "Projekt: Trend- und Innovationsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Big Data & Data Science - Methoden & Technologien",
+        "ects": "6"
+      },
+      {
+        "name": "Künstliche Intelligenz - Methoden & Anwendungen",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Datenanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Changemanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Data Literacy",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Anwendungs- und Softwaresysteme",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Informationssicherheit & Datenschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Betriebswirtschaft & Wirtschaftspsychologie | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/betriebswirtschaft-und-wirtschaftspsychologie.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Sozialpsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Biopsychologie & Allgemeine Psychologie I",
+        "ects": "6"
+      },
+      {
+        "name": "Allgemeine Psychologie II",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Differentielle Psychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Datenerhebung & Statistik",
+        "ects": "6"
+      },
+      {
+        "name": "Datenauswertung mit R",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten - Wirtschaftspsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitatives Forschungsprojekt",
+        "ects": "6"
+      },
+      {
+        "name": "Psychologische Diagnostik",
+        "ects": "6"
+      },
+      {
+        "name": "Angewandte Themen der Differentiellen Psychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Psychologische Gesprächskompetenz",
+        "ects": "6"
+      },
+      {
+        "name": "Arbeits- & Organisationspsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Praxis Diagnostischer Verfahren",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Turnaround Management",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitatives Forschungsprojekt",
+        "ects": "6"
+      },
+      {
+        "name": "Personalpsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Angewandte Arbeits-, Organisations- & Personalpsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Markt- & Werbepsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Verhaltensökonomik",
+        "ects": "6"
+      },
+      {
+        "name": "Angewandte Wirtschaftspsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé - Wirtschaftspsychologie",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Steuerrecht | Bachelor of Laws (LL.B.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/steuerrecht.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Buchführung & Kostenrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "Einkommensteuer",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle Einkommensteuer",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Öffentliches Recht",
+        "ects": "6"
+      },
+      {
+        "name": "Umsatzsteuer",
+        "ects": "6"
+      },
+      {
+        "name": "Bürgerliches Recht: Einführung und Fälle",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Verfahrens- und Steuerstrafrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Steuerliche Gewinnermittlung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Gesellschaftsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Besteuerung von Personenunternehmen",
+        "ects": "6"
+      },
+      {
+        "name": "Gewerbe- & Grundsteuer",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Turnaround Management",
+        "ects": "6"
+      },
+      {
+        "name": "Körperschaftsteuer",
+        "ects": "6"
+      },
+      {
+        "name": "Erbschaft- & Grunderwerbsteuer",
+        "ects": "6"
+      },
+      {
+        "name": "Umwandlungssteuerrecht",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Repetitorium Steuerrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Internationales Steuerrecht & Tax Transformation",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt Steuerplanung/DATEV Führerschein",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsrecht | Bachelor of Laws (LL.B.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/wirtschaftsrecht.html",
+    "courses": [
+      {
+        "name": "Management Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Rechtsmethoden",
+        "ects": "6"
+      },
+      {
+        "name": "BGB I",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle BGB I",
+        "ects": "7"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Marketing & Medien",
+        "ects": "6"
+      },
+      {
+        "name": "Öffentliches Recht",
+        "ects": "6"
+      },
+      {
+        "name": "BGB II",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle BGB II",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Bilanzrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschaftsstrafrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle Wirtschaftsstrafrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Finanzierung & Investition",
+        "ects": "6"
+      },
+      {
+        "name": "Gesellschaftsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Arbeitsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle Gesellschaftsrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Verhandlung & Vertrag",
+        "ects": "6"
+      },
+      {
+        "name": "Insolvenzrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Verhandlung & Vertrag",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Volkswirtschaftslehre",
+        "ects": "6"
+      },
+      {
+        "name": "Repetitorium Wirtschaftsrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Data Law & Legal Transformation",
+        "ects": "6"
+      },
+      {
+        "name": "Fälle Repetitorium Wirtschaftsrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Informatik | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge/informatik.html",
+    "courses": [
+      {
+        "name": "Mathematische Grundlagen der Informatik",
+        "ects": "6"
+      },
+      {
+        "name": "Konzepte der Programmierung",
+        "ects": "6"
+      },
+      {
+        "name": "Theoretische Informatik",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Methoden der Informatik",
+        "ects": "6"
+      },
+      {
+        "name": "Datenbanken",
+        "ects": "6"
+      },
+      {
+        "name": "Cloudtechnologie",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliche Informationssysteme",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Konzepte dynamischer Programmiersprachen",
+        "ects": "6"
+      },
+      {
+        "name": "Business Intelligence & Analytics",
+        "ects": "6"
+      },
+      {
+        "name": "KI",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Software Engineering",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Infrastruktur",
+        "ects": "6"
+      },
+      {
+        "name": "UX- und Webtechnologien",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Softwareentwicklung & UX",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data & Data Science",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebssysteme",
+        "ects": "6"
+      },
+      {
+        "name": "Verteilte Systeme",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Forschungsmethoden",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Technologietrends & Innovationsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Informationssicherheit & Datenschutz",
+        "ects": "6"
+      },
+      {
+        "name": "Cyber-Attacken",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Embedded Systems, IoT, SmartX",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis / Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsinformatik | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/wirtschaftsinformatik.html",
+    "courses": [
+      {
+        "name": "Wirtschaftsinformatik Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Mathematische Grundlagen der Informatik",
+        "ects": "6"
+      },
+      {
+        "name": "Konzepte der Programmierung",
+        "ects": "6"
+      },
+      {
+        "name": "Management Grundlagen",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Datenbanken",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschafts- und IT-Recht",
+        "ects": "6"
+      },
+      {
+        "name": "Beschaffung & Produktion",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Algorithmen und Datenstrukturen",
+        "ects": "6"
+      },
+      {
+        "name": "Konzepte dynamischer Programmiersprachen",
+        "ects": "6"
+      },
+      {
+        "name": "Geschäftsprozessmanagement & -automatisierung",
+        "ects": "6"
+      },
+      {
+        "name": "Rechnungswesen & Controlling",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Software Engineering",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Infrastruktur",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliche Informationssysteme & E-Business",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: ERP",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data & Data Science",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebssysteme",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliche Anwendungen der KI",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Forschungsmethoden",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Informationssicherheit & Datenschutz",
+        "ects": "6"
+      },
+      {
+        "name": "Informations- und IT-Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Anwendungsentwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis / Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsinformatik - Business Information Systems | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/wirtschaftsinformatik-ausrichtung-international.html",
+    "courses": [
+      {
+        "name": "Business English",
+        "ects": "5"
+      },
+      {
+        "name": "Datenbankmanagement",
+        "ects": "7"
+      },
+      {
+        "name": "E-Business",
+        "ects": "5"
+      },
+      {
+        "name": "Konzepte des objektorientierten Programmierens",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Methoden der Informatik",
+        "ects": "5"
+      },
+      {
+        "name": "Fallstudie / Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Betriebswirtschaft & Unternehmensorganisation",
+        "ects": "7"
+      },
+      {
+        "name": "IT- und Medienrecht",
+        "ects": "5"
+      },
+      {
+        "name": "IT Infrastruktur",
+        "ects": "8"
+      },
+      {
+        "name": "Konzepte des skriptsprachenorientierten Programmierens",
+        "ects": "7"
+      },
+      {
+        "name": "English for information technologies",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Geschäftsprozessmodellierung",
+        "ects": "5"
+      },
+      {
+        "name": "Verteilte Systeme",
+        "ects": "5"
+      },
+      {
+        "name": "Algorithmen und Datenstrukturen",
+        "ects": "8"
+      },
+      {
+        "name": "IT Management",
+        "ects": "5"
+      },
+      {
+        "name": "Software Engineering",
+        "ects": "7"
+      },
+      {
+        "name": "IT Trends & Innovation",
+        "ects": "5"
+      },
+      {
+        "name": "Big Data & Data Science",
+        "ects": "5"
+      },
+      {
+        "name": "Web Technologie",
+        "ects": "5"
+      },
+      {
+        "name": "Anwendungsprojekt",
+        "ects": "5"
+      },
+      {
+        "name": "Informationsmanagement & Datenschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Strategisches Management",
+        "ects": "7"
+      },
+      {
+        "name": "Vorbereitungsseminar zur Bachelor Thesis",
+        "ects": "3"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium²",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Maschinenbau & Digitale Technologien | Bachelor of Engineering (B.Eng.)",
+    "link": "https://www.fom.de/die-studiengaenge/duales-studium/bachelor-studiengaenge/maschinenbau-und-digitale-technologien.html",
+    "courses": [
+      {
+        "name": "Ingenieurmathematik I",
+        "ects": "6"
+      },
+      {
+        "name": "Moderne Werk- und Betriebsstoffe",
+        "ects": "6"
+      },
+      {
+        "name": "Industrielle Betriebssysteme & Netzwerke",
+        "ects": "6"
+      },
+      {
+        "name": "Industrielle Softwareentwicklung",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Technische Mechanik",
+        "ects": "6"
+      },
+      {
+        "name": "Laborpraktikum",
+        "ects": "6"
+      },
+      {
+        "name": "Messtechnik",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen Konstruktion & Maschinenelemente",
+        "ects": "6"
+      },
+      {
+        "name": "Strömungsmechanik",
+        "ects": "6"
+      },
+      {
+        "name": "Angewandte Ingenieurmathematik",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Elektrotechnik & Mikrosystemtechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Dynamik & Robotik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Konstruktion & Computer Aided Design",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Produktionsverfahren & Produktionstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Thermodynamik",
+        "ects": "6"
+      },
+      {
+        "name": "Antriebe",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Smart Factory",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Automatisierungstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Zertifikat Qualitätsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      }
+    ]
+  },
+  {
+    "name": "Wirtschaftsingenieurwesen | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-ingenieurwissenschaftlich/wirtschaftsingenieurwesen.html",
+    "courses": [
+      {
+        "name": "Ingenieurmathematik I",
+        "ects": "6"
+      },
+      {
+        "name": "Moderne Werk- und Betriebsstoffe",
+        "ects": "6"
+      },
+      {
+        "name": "Industrielle Informationstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Internes & Externes Rechnungswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Ingenieurmathematik II",
+        "ects": "6"
+      },
+      {
+        "name": "Technische Mechanik",
+        "ects": "6"
+      },
+      {
+        "name": "Finanzierung & Investition Basics",
+        "ects": "6"
+      },
+      {
+        "name": "Wirtschafts- und Patentrecht",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Naturwissenschaften für Ingenieure",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen Konstruktion & Maschinenelemente",
+        "ects": "6"
+      },
+      {
+        "name": "Produktionsplanung und -steuerung",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: ERP-Systeme",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Industrial Data Engineering",
+        "ects": "6"
+      },
+      {
+        "name": "Elektrotechnik & Mikrosystemtechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Logistik & Supply Chain Management",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Supply Chain Management",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Produktionsverfahren & Produktionstechnik",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing & Technischer Vertrieb",
+        "ects": "6"
+      },
+      {
+        "name": "IT-Security-Management",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Produktinnovation & Service Engineering",
+        "ects": "6"
+      },
+      {
+        "name": "Smart Factory",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmensführung",
+        "ects": "6"
+      },
+      {
+        "name": "Projekt: Zertifikat Qualitätsmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Management im Gesundheitswesen | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/die-studiengaenge/duales-studium/bachelor-studiengaenge/management-im-gesundheitswesen.html",
+    "courses": [
+      {
+        "name": "Management Basics im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Aufbau des Gesundheitssystems",
+        "ects": "6"
+      },
+      {
+        "name": "Recht im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen der digitalen Gesundheit",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Medizin Basics & Gesundheitswissenschaften",
+        "ects": "6"
+      },
+      {
+        "name": "Unternehmensrechnung",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitsökonomie",
+        "ects": "6"
+      },
+      {
+        "name": "Trends und Zukunftsforschung im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen Leistungsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Ethik, Interkulturelles & Diversity Management",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Innovations- und Wissensmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Geschäftsmodelle im Gesundheitswesen",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Personalmanagement & Leadership in Gesundheitseinrichtungen",
+        "ects": "6"
+      },
+      {
+        "name": "Marketing und Kommunikation im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Kommunikations- & Verhandlungsführung",
+        "ects": "6"
+      },
+      {
+        "name": "Case Management",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Unternehmensmanagement & Entrepreneurship in Gesundheitseinrichtungen",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitspolitik & Systemvergleich",
+        "ects": "6"
+      },
+      {
+        "name": "Praxisprojekt",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/ Kolloqium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Gesundheitspsychologie & Medizinpädagogik | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/gesundheitspsychologie-und-medizinpaedagogik-0.html",
+    "courses": [
+      {
+        "name": "Einführung in die Psychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Medizin Basics & Gesundheitswissenschaften",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitspsychologie",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitssport",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Vertiefung Medizin Basics & Gesundheitswissenschaften",
+        "ects": "6"
+      },
+      {
+        "name": "Medizinpädagogik und ihre Didaktik",
+        "ects": "6"
+      },
+      {
+        "name": "Ernährung",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Management Basics in Einrichtungen des Sozial- und Gesundheitssystems",
+        "ects": "6"
+      },
+      {
+        "name": "Qualitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Gesundheitskommunikation",
+        "ects": "6"
+      },
+      {
+        "name": "Mentale Gesundheit",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Pädagogik der Kindheit und Jugend",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen Gesprächsführung & Beratung",
+        "ects": "6"
+      },
+      {
+        "name": "Erlebnispädagogik",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Andragogik",
+        "ects": "6"
+      },
+      {
+        "name": "Case Management im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Vertiefung Gesprächsführung & Beratung",
+        "ects": "6"
+      },
+      {
+        "name": "(medienpädagogisches Projekt) Digitale Gesundheitskommunikation",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitätsmanagement im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Pädagogisches Projekt",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Management in der Gefahrenabwehr | Bachelor of Science (B.Sc.)",
+    "link": "https://www.fom.de/die-studiengaenge/duales-studium/bachelor-studiengaenge/management-in-der-gefahrenabwehr.html",
+    "courses": [
+      {
+        "name": "Psychosoziale Notfallversorgung & Psychosoziales Krisenmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen des Staatsaufbaus",
+        "ects": "6"
+      },
+      {
+        "name": "Arbeitssicherheit & Gesundheitsschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Management Basics im Gesundheitswesen",
+        "ects": "6"
+      },
+      {
+        "name": "Krisenmanagement in der globalisierten Welt",
+        "ects": "6"
+      },
+      {
+        "name": "Geoinformationssysteme & Risikoanalyse",
+        "ects": "6"
+      },
+      {
+        "name": "Crew Resource & Fehlermanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Risiko- & Krisenkommunikation",
+        "ects": "6"
+      },
+      {
+        "name": "Human Resources",
+        "ects": "6"
+      },
+      {
+        "name": "Gefahrenabwehrrecht",
+        "ects": "6"
+      },
+      {
+        "name": "Einsatzvorplanung & Einsatzvorbereitung",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Systematik von Sicherheit, Gefahrenabwehr & Hilfeleistung",
+        "ects": "6"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Kommunikation & Koordination in der Gefahrenabwehr",
+        "ects": "6"
+      },
+      {
+        "name": "Strategischer Bevölkerungsschutz",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Safety & Security im Einsatz",
+        "ects": "6"
+      },
+      {
+        "name": "Informationssicherheit & Datenschutz im Hilfeleistungssystem",
+        "ects": "6"
+      },
+      {
+        "name": "Bedarfsplanung in der Gefahrenabwehr",
+        "ects": "6"
+      },
+      {
+        "name": "MANV- & Krankenhausalarmplanung",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Aufbau & Leitung von Krisenstäben",
+        "ects": "6"
+      },
+      {
+        "name": "Beschaffung & Finanzierung im Hilfeleistungssystem",
+        "ects": "6"
+      },
+      {
+        "name": "Logistik im Hilfeleistungssystem",
+        "ects": "6"
+      },
+      {
+        "name": "Management von Menschenströmen & Veranstaltungen",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis/Kolloquium",
+        "ects": "12"
+      }
+    ]
+  },
+  {
+    "name": "Pflege | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge/pflege.html",
+    "courses": [
+      {
+        "name": "Grundlagen Pflegemanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Einführung Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen der Pflegewissenschaft",
+        "ects": "8"
+      },
+      {
+        "name": "Lern- und Arbeitstechniken",
+        "ects": "5"
+      },
+      {
+        "name": "Beratungs- und Gesprächskompetenz",
+        "ects": "7"
+      },
+      {
+        "name": "Recht im Gesundheits- und Sozialwesen",
+        "ects": "7"
+      },
+      {
+        "name": "Pflegepädagogik",
+        "ects": "7"
+      },
+      {
+        "name": "Wund- und Schmerzmanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Führung & Kompetenzen in der Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Ethik im Gesundheits- und Sozialwesen",
+        "ects": "5"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Wahlpflichtmodul: Geriatrische Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Wahlpflichtmodul: Pädiatrische Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Case Management",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Pflege Informationstechnologien",
+        "ects": "7"
+      },
+      {
+        "name": "Qualitätsmanagement in der Pflege",
+        "ects": "8"
+      },
+      {
+        "name": "Seminar zur Bachelor-Thesis",
+        "ects": "3"
+      },
+      {
+        "name": "Seminar zur Bachelor-Thesis",
+        "ects": "3"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium",
+        "ects": "15"
+      }
+    ]
+  },
+  {
+    "name": "Pflege & Digitalisierung | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/die-studiengaenge/duales-studium/bachelor-studiengaenge/pflege-und-digitalisierung.html",
+    "courses": [
+      {
+        "name": "Grundlagen Pflegemanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Einführung Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen der Pflegewissenschaft",
+        "ects": "8"
+      },
+      {
+        "name": "Lern- und Arbeitstechniken",
+        "ects": "5"
+      },
+      {
+        "name": "Beratungs- und Gesprächskompetenz",
+        "ects": "7"
+      },
+      {
+        "name": "Digitale Pflege & Informationstechnologien",
+        "ects": "7"
+      },
+      {
+        "name": "Pflege- und Medienpädagogik",
+        "ects": "7"
+      },
+      {
+        "name": "Führung & Kompetenzen in der Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Recht im Gesundheits- und Sozialwesen",
+        "ects": "7"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Digital Change Management",
+        "ects": "7"
+      },
+      {
+        "name": "Case Management",
+        "ects": "6"
+      },
+      {
+        "name": "Ethik im Gesundheits- und Sozialwesen",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitätsmanagement in der Pflege",
+        "ects": "8"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium",
+        "ects": "15"
+      }
+    ]
+  },
+  {
+    "name": "Pflegemanagement | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/pflegemanagement-0.html",
+    "courses": [
+      {
+        "name": "Medizinische Grundlagen *",
+        "ects": "7"
+      },
+      {
+        "name": "Grundlagen der professionellen Pflege *",
+        "ects": "7"
+      },
+      {
+        "name": "Grundlagen Pflegemanagement",
+        "ects": "8"
+      },
+      {
+        "name": "Einführung Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Recht im Gesundheits- und Sozialwesen",
+        "ects": "7"
+      },
+      {
+        "name": "Aufbau des Gesundheits- und Sozialsystems",
+        "ects": "7"
+      },
+      {
+        "name": "Grundlagen der Pflegewissenschaft",
+        "ects": "8"
+      },
+      {
+        "name": "Lern- und Arbeitstechniken",
+        "ects": "5"
+      },
+      {
+        "name": "Personalmanagement in der Pflege",
+        "ects": "8"
+      },
+      {
+        "name": "Beratungs- und Gesprächskompetenz",
+        "ects": "7"
+      },
+      {
+        "name": "Ethik im Gesundheits- und Sozialwesen",
+        "ects": "5"
+      },
+      {
+        "name": "Pflegepädagogik",
+        "ects": "7"
+      },
+      {
+        "name": "Führung & Kompetenzen in der Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Gesundheits- und Sozialökonomie",
+        "ects": "6"
+      },
+      {
+        "name": "Betriebliches Gesundheitsmanagement in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Internes & Externes Rechnungswesen",
+        "ects": "7"
+      },
+      {
+        "name": "Projektmanagement in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Organisation & Change Management",
+        "ects": "7"
+      },
+      {
+        "name": "Wahlpflichtmodul: Entrepreneurship in der Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Wahlpflichtmodul: Geriatrische Pflege",
+        "ects": "7"
+      },
+      {
+        "name": "Marketing in der Pflege",
+        "ects": "6"
+      },
+      {
+        "name": "Case Management",
+        "ects": "6"
+      },
+      {
+        "name": "Digitale Pflege & Informationstechnologien",
+        "ects": "7"
+      },
+      {
+        "name": "Qualitätsmanagement in der Pflege",
+        "ects": "8"
+      },
+      {
+        "name": "Seminar zur Bachelor-Thesis",
+        "ects": "3"
+      },
+      {
+        "name": "Bachelor-Thesis/Kolloquium",
+        "ects": "15"
+      }
+    ]
+  },
+  {
+    "name": "Soziale Arbeit | Bachelor of Arts (B.A.)",
+    "link": "https://www.fom.de/studiengaenge/duales-studium/bachelor-studiengaenge-betriebswirtschaftlich/soziale-arbeit.html",
+    "courses": [
+      {
+        "name": "Grundlagen der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Lebensphasenorientierte Handlungsfelder",
+        "ects": "6"
+      },
+      {
+        "name": "Professionelle Beziehungsgestaltung im Kontext der Biografie (5 CP)",
+        "ects": "eigen"
+      },
+      {
+        "name": "Zeit- und Selbstmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Grundlagen der Pädagogik/Sozialpädagogik",
+        "ects": "6"
+      },
+      {
+        "name": "Recht in der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Lebenslagenorientierte Handlungsfelder",
+        "ects": "6"
+      },
+      {
+        "name": "Gesprächsführung",
+        "ects": "5"
+      },
+      {
+        "name": "Wissenschaftliches Arbeiten",
+        "ects": "5"
+      },
+      {
+        "name": "Qualitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Grundlagen Methoden der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "(Vertiefung Lebenslagen) Diversity & Teilhabe",
+        "ects": "5"
+      },
+      {
+        "name": "Projektmanagement",
+        "ects": "5"
+      },
+      {
+        "name": "Quantitative Methoden & Evaluation",
+        "ects": "6"
+      },
+      {
+        "name": "Beratung in der Sozialen Arbeit (inkl. Praxiswerkstatt)",
+        "ects": "6"
+      },
+      {
+        "name": "Praxismodul qualitative Forschung",
+        "ects": "5"
+      },
+      {
+        "name": "Digitale Transformation",
+        "ects": "5"
+      },
+      {
+        "name": "Sozialmedizin",
+        "ects": "6"
+      },
+      {
+        "name": "Sozialmanagement",
+        "ects": "6"
+      },
+      {
+        "name": "Lebensraum- und kontextorientierte Handlungsfelder",
+        "ects": "6"
+      },
+      {
+        "name": "Vertiefung Methoden der Sozialen Arbeit",
+        "ects": "5"
+      },
+      {
+        "name": "ESG - Nachhaltigkeit",
+        "ects": "5"
+      },
+      {
+        "name": "Ethik & Nachhaltigkeit",
+        "ects": "6"
+      },
+      {
+        "name": "Interkulturelle Aspekte der Sozialen Arbeit",
+        "ects": "6"
+      },
+      {
+        "name": "Professionsbezogene Handlungsfelder",
+        "ects": "6"
+      },
+      {
+        "name": "Finanzierung der Sozialen Arbeit",
+        "ects": "5"
+      },
+      {
+        "name": "Exposé",
+        "ects": "5"
+      },
+      {
+        "name": "Thesis / Kolloquium",
+        "ects": "12"
+      }
+    ]
+  }
+]
