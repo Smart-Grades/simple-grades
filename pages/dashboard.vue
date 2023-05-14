@@ -1,7 +1,10 @@
 <template>
   <div>
-    <div class="h-screen bg-dark">
+    <div class="h-full bg-dark">
       <TableNav />
+      <Table />
+      <Table />
+      <Table />
       <Table />
       <Table />
       <Table />
