@@ -14,13 +14,24 @@
             <p class="border-b-2 w-1/3"></p>
           </div>
 
-          <div class="relative flex items-center">
+          <div class="">
+            <!-- INPUT FIELD UNI -->
+            <div class="relative flex items-center">
               <span class="absolute">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6 mx-3 fill-gray-500">
                   <path d="M20,18V17H19V10h1V7L12,2.08,4,7v3H5v7H4.2v1H3v3H21V18ZM12,4l3.14,2H8.86Zm6,15H6a.5.5,0,0,1,0-1H18a.5.5,0,0,1,0,1ZM7,17V11H8v6Zm3,0V11h1v6Zm3,0V11h1v6Zm3,0V11h1v6Zm2-8H6.5a.5.5,0,0,1,0-1H18a.5.5,0,0,1,0,1Z"/></svg>
               </span>
+          
+              <input type="text" id="searchInputUni" @keyup="searchUni()" class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Deine Universität">
+            </div>
 
-              <input type="text" class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Deine Universität">
+            <!-- SEARCH LIST UNI -->
+              <ul id="myUniList" class="mt-2 block w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300">
+                <li><a href="#">🏫 RWTH Aachen</a></li>
+                <li><a href="#">🏫 Fom</a></li>
+                <li><a href="#">🏫 Universität Duisburg Essen</a></li>
+                <li><a href="#">🏫 Universität Münster</a></li>
+              </ul>
           </div>
         </div>
 
@@ -30,13 +41,25 @@
             <p class="border-b-2 w-1/3"></p>
           </div>
 
-          <div class="relative flex items-center">
+          <div class="">
+            <!-- INPUT FIELD MAJOR -->
+            <div class="relative flex items-center">
               <span class="absolute">
                 <img src="/assets/img/book.svg" class="w-6 h-6 mx-3" alt="">
               </span>
+          
+              <input type="text" id="searchInputMajor" @keyup="searchMajor()" class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Deine Universität">
+            </div>
 
-              <input type="text" class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Dein Studiengang">
+            <!-- SEARCH LIST MAJOR -->
+              <ul id="myMajorList" class="mt-2 block w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300">
+                <li><a href="#">🎓 Wirtschaftsinformatik</a></li>
+                <li><a href="#">🎓 Bwl</a></li>
+                <li><a href="#">🎓 Vwl</a></li>
+                <li><a href="#">🎓 Computer Engineering</a></li>
+              </ul>
           </div>
+          
         </div>
       </div>
 
@@ -48,3 +71,64 @@
     </div>
   </div>
 </template>
+
+
+<script setup>
+  onMounted(() => {
+      searchUni() 
+    })
+
+  function searchUni() {
+      // Declare variables
+      var input, filter, ul, li, a, i;
+      input = document.getElementById('searchInputUni');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUniList");
+      li = ul.getElementsByTagName('li');
+
+      if(input.value.length == ""){
+          ul.style.display = "none";
+          return;
+      }else{
+          ul.style.display = "block";
+      }
+      // Loop through all list items, and hide those who don't match the search query
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "block";
+          } else {
+              li[i].style.display = "none";
+          }
+      }
+  }
+
+  onMounted(() => {
+    searchMajor() 
+  })
+
+  function searchMajor() {
+      // Declare variables
+      var input, filter, ul, li, a, i;
+      input = document.getElementById('searchInputMajor');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myMajorList");
+      li = ul.getElementsByTagName('li');
+
+      if(input.value.length == ""){
+          ul.style.display = "none";
+          return;
+      }else{
+          ul.style.display = "block";
+      }
+      // Loop through all list items, and hide those who don't match the search query
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "block";
+          } else {
+              li[i].style.display = "none";
+          }
+      }
+  }
+</script>
