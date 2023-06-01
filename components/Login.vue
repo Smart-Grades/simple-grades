@@ -48,9 +48,13 @@
                     </button>
                 </div>
 
-                <div class="mt-4 text-center ">
+                <div class="mt-4 flex justify-between ">
                     <a @click="() => switchAuthForm()" href="#" class="text-sm text-gray-500 hover:underline ">
                         Do not have an account?
+                    </a>
+
+                    <a href="#" class="text-sm text-gray-500 hover:underline ">
+                        Forgot password?
                     </a>
                 </div>
             </form>
