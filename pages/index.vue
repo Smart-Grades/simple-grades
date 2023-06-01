@@ -7,7 +7,7 @@
         </div>
         
         
-        <img class="z-0 absolute bottom-0" src="assets/img/wave.svg" alt="wave-illustration">
+        <img class="z-0 absolute bottom-0" src="/assets/img/wave.svg" alt="wave-illustration">
         
     </div>
 </template>
