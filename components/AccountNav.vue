@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- HEADER -->
-        <div class="">
+        <div>
             <NuxtLink to="/"><p class="font-main text-xl text-white font-bold cursor-pointer">SmartGrades</p></NuxtLink>
         </div>
     </div>
