@@ -7,7 +7,8 @@
         </svg>
       </div>
 
-      <div class="w-80 md:w-96 lg:w-[500px]">
+      <div class="w-80 md:w-96 
+                  lg:w-[500px]">
         <div class="">
           <div class="mb-3">
             <p class="text-sm text-gray-300 font-semibold mb-1">Universität</p>
