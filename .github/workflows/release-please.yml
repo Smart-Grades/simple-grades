@@ -2,7 +2,6 @@ on:
   push:
     branches:
       - main
-      - dev
 
 permissions:
   contents: write
@@ -24,3 +23,4 @@ jobs:
           draft: false
           prerelease: false
           path: "."
+          command: github-release
