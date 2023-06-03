@@ -20,5 +20,4 @@
 
 ### Miscellaneous Chores
 
-* release 0.0.0 ([087f282](https://github.com/Smart-Grades/simple-grades/commit/087f282865b5f2d32aa525a55a1eb2bcd7c80fa7))
 * release v0.1.0 ([13f204e](https://github.com/Smart-Grades/simple-grades/commit/13f204e3d68c9d90df5fa8b4a0d6017211f3efcb))
