@@ -40,14 +40,23 @@
           </a>
         </div>
 
-        <div class="flex items-center justify-center mt-6">
-          <a
-            href="#"
-            class="w-1/3 pb-4 font-medium text-center text-gray-400 capitalize border-b border-gray-400"
-            @click="() => switchAuthForm()"
-          >
-            sign in
-          </a>
+        <div class="relative flex items-center mt-6">
+          <span class="absolute">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 mx-3 text-gray-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+          </span>
 
           <input
             v-model="input.mail"
@@ -57,7 +66,7 @@
           />
         </div>
 
-        <div class="relative flex items-center mt-6">
+        <div class="relative flex items-center mt-4">
           <span class="absolute">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -109,31 +118,6 @@
           />
         </div>
 
-        <div class="relative flex items-center mt-4">
-          <span class="absolute">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6 mx-3 text-gray-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              />
-            </svg>
-          </span>
-
-          <input
-            type="password"
-            class="block w-full px-11 py-3 border rounded-lg bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
-            placeholder="Confirm Password"
-          />
-        </div>
-
         <div class="mt-6">
           <button
             class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-fom rounded-lg hover:opacity-80 hover:transition hover:ease-out-in hover:duration-250 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
@@ -166,6 +150,7 @@ function switchAuthForm() {
 }
 
 const APP_CLIENT = new Client();
+const ACCOUNT = new Account(APP_CLIENT);
 
 const runtimeConfig = useRuntimeConfig();
 APP_CLIENT.setEndpoint(runtimeConfig.public.appwriteEndpoint).setProject(
@@ -176,14 +161,36 @@ const input = reactive({ mail: "", password: "", passwordConfirm: "" });
 const inputError = ref(false);
 
 const createUser = (mail, password) =>
-  new Account(APP_CLIENT)
-    .create(ID.unique(), mail, password)
-    .then((response) => {
-      console.log(response);
+  ACCOUNT.create(ID.unique(), mail, password)
+    .then((res) => {
+      if (res.$id) {
+        loginUser(mail, password);
+      }
     })
     .catch((error) => {
       console.log(error);
     });
+
+const loginUser = (mail, password) =>
+  ACCOUNT.createEmailSession(mail, password)
+    .then((res) => {
+      if (res.$id) {
+        createMailVerify("http://localhost:3000/verify");
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+
+const createMailVerify = (url) => {
+  const PROM = ACCOUNT.createVerification(url);
+
+  PROM.then(() => {
+    ACCOUNT.deleteSession("current");
+  }).catch((error) => {
+    console.log(error);
+  });
+};
 
 const handleInputChange = () => {
   if (!input.mail || !input.password || !input.passwordConfirm) {

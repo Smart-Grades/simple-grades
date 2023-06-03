@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
+      url: "",
       appwriteEndpoint: "",
       appwriteProject: "",
     },

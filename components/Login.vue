@@ -3,7 +3,7 @@
     <div
       class="container flex items-center justify-center min-h-screen px-6 mx-auto"
     >
-      <form class="w-full max-w-md">
+      <form class="w-full max-w-md" @submit.prevent="handleInputChange">
         <div class="flex justify-center mx-auto">
           <NuxtLink to="/">
             <svg
@@ -59,6 +59,7 @@
           </span>
 
           <input
+            v-model="input.mail"
             type="email"
             class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Email address"
@@ -84,6 +85,7 @@
           </span>
 
           <input
+            v-model="input.password"
             type="password"
             class="block w-full px-11 py-3 border rounded-lg bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Password"
@@ -117,9 +119,41 @@
 </template>
 
 <script setup>
+import { Account, Client } from "appwrite";
+
 const switchAuthPage = useState("toggleAuthPage");
 
 function switchAuthForm() {
   switchAuthPage.value = !switchAuthPage.value;
 }
+
+const APP_CLIENT = new Client();
+const ACCOUNT = new Account(APP_CLIENT);
+
+const runtimeConfig = useRuntimeConfig();
+APP_CLIENT.setEndpoint(runtimeConfig.public.appwriteEndpoint).setProject(
+  runtimeConfig.public.appwriteProject
+);
+
+const input = reactive({ mail: "", password: "" });
+const inputError = ref(false);
+
+const loginUser = (mail, password) =>
+  ACCOUNT.createEmailSession(mail, password)
+    .then((res) => {
+      if (res.$id) {
+        app.$auth.loggedIn = true;
+        navigateTo("/ident");
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+
+const handleInputChange = () => {
+  if (!input.mail || !input.password) {
+    return (inputError.value = true);
+  }
+  loginUser(input.mail, input.password);
+};
 </script>
