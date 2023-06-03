@@ -22,4 +22,5 @@ jobs:
           bump-patch-for-minor-pre-major: false
           draft: false
           prerelease: false
+          path: "."
           default-branch: main
