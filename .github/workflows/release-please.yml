@@ -17,4 +17,10 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
-          package-name: release-please-action
+          token: ${{secrets.GITHUB_TOKEN}}
+          changelog-path: CHANGELOG.md
+          bump-minor-pre-major: false
+          bump-patch-for-minor-pre-major: false
+          draft: false
+          prerelease: false
+          path: "."
