@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - main
+      - dev
 
 permissions:
   contents: write
@@ -18,9 +19,9 @@ jobs:
           release-type: node
           token: ${{secrets.GITHUB_TOKEN}}
           changelog-path: CHANGELOG.md
-          bump-minor-pre-major: false
+          bump-minor-pre-major: true
           bump-patch-for-minor-pre-major: false
           draft: false
           prerelease: false
           path: "."
-          command: github-release
+          default-branch: main
