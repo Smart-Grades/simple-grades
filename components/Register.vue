@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container flex items-center justify-center min-h-screen px-6 mx-auto">
-            <form class="w-full max-w-md">
+            <form class="w-full max-w-md" @submit.prevent="handleInputChange">
                 <div class="flex justify-center mx-auto">
                     <NuxtLink to="/">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 text-white">
@@ -28,7 +28,11 @@
                         </svg>
                     </span>
 
-                    <input type="email" class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Email address">
+                    <input
+                        type="email"
+                        class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+                        placeholder="Email address"
+                        v-model="input.mail">
                 </div>
 
                 <div class="relative flex items-center mt-4">
@@ -38,7 +42,11 @@
                         </svg>
                     </span>
 
-                    <input type="password" class="block w-full px-11 py-3 border rounded-lg bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Password">
+                    <input
+                        type="password"
+                        class="block w-full px-11 py-3 border rounded-lg bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+                        placeholder="Password"
+                        v-model="input.password">
                 </div>
 
                 <div class="relative flex items-center mt-4">
@@ -48,7 +56,11 @@
                         </svg>
                     </span>
 
-                    <input type="password" class="block w-full px-11 py-3 border rounded-lg bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Confirm Password">
+                    <input
+                        type="password"
+                        class="block w-full px-11 py-3 border rounded-lg bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+                        placeholder="Confirm Password"
+                        v-model="input.passwordConfirm">
                 </div>
 
 
@@ -70,9 +82,43 @@
 </template>
 
 <script setup>
+    import { Account, ID, Client } from 'appwrite';
+
     const switchAuthPage = useState('toggleAuthPage')
 
     function switchAuthForm() {
         switchAuthPage.value = !switchAuthPage.value
+    }
+
+    const APP_CLIENT = new Client()
+
+    const runtimeConfig = useRuntimeConfig()
+    APP_CLIENT
+        .setEndpoint(runtimeConfig.public.appwriteEndpoint)
+        .setProject(runtimeConfig.public.appwriteProject)
+
+    const input = reactive({ mail: '', password: '', passwordConfirm: '' })
+    const inputError = ref(false)
+    
+
+    const createUser = (mail, password) => 
+        new Account(APP_CLIENT).create(
+            ID.unique(),
+            mail,
+            password
+        ).then(response => {
+            console.log(response);
+        }).catch(error => {
+            console.log(error);
+        });
+
+    const handleInputChange = () => {
+        if (!input.mail || !input.password || !input.passwordConfirm) {
+            return (inputError.value = true);
+        }
+        if (input.password !== input.passwordConfirm) {
+            return (inputError.value = true);
+        }
+        createUser(input.mail, input.password);
     }
 </script>
