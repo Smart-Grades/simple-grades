@@ -10,6 +10,10 @@
     "plugin:import/typescript"
   ],
   "rules": {
+    "comma-dangle": "off",
+    "space-before-function-paren": "off",
+    "semi": "off",
+    "quotes": "off",
     "vue/html-self-closing": "off",
     "sort-imports": [
       "error",
@@ -30,25 +34,6 @@
     "jsdoc/require-returns": "off",
     "jsdoc/require-param-type": "off",
     "no-redeclare": "off",
-    "import/order": [
-      "error",
-      {
-        "pathGroups": [
-          {
-            "pattern": "@nuxt/test-utils/experimental",
-            "group": "external"
-          },
-          {
-            "pattern": "@nuxt/test-utils",
-            "group": "external"
-          },
-          {
-            "pattern": "#vue-router",
-            "group": "external"
-          }
-        ]
-      }
-    ],
     "@typescript-eslint/consistent-type-imports": [
       "error",
       {
