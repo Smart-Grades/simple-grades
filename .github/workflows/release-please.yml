@@ -23,4 +23,3 @@ jobs:
           draft: false
           prerelease: false
           path: "."
-          default-branch: main
