@@ -8,7 +8,9 @@
 
         <!-- GetStarted-Button -->
         <div class="flex justify-center">
-            <button class="font-display font-semibold text-sm text-white shadow-2xl bg-fom py-2 px-6 rounded-md transition ease-out duration-300 hover:scale-105 sm:py-3 sm:px-7 sm:text-base lg:text-lg">Get Started</button>
+            <NuxtLink to="/auth">
+                <button class="font-display font-semibold text-sm text-white shadow-2xl bg-fom py-2 px-6 rounded-md transition ease-out duration-300 hover:scale-105 sm:py-3 sm:px-7 sm:text-base lg:text-lg">Get Started</button>
+            </NuxtLink>
         </div>
 
         <div class="flex justify-center ">
