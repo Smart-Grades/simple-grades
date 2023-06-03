@@ -7,4 +7,7 @@ export default defineNuxtConfig({
         autoprefixer: {},
       },
     },
+    runtimeConfig: {
+      APPWRITE_ENDPOINT: process.env.APPWRITE_ENDPOINT,
+      APPWRITE_PROJECT: process.env.APPWRITE_PROJECT,
   })
