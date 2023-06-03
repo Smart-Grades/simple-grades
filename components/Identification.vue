@@ -1,3 +1,155 @@
+<!--<script setup>
+import { Account, Client, Databases } from "appwrite";
+
+const APP_CLIENT = new Client();
+const ACCOUNT = new Account(APP_CLIENT);
+const DATABASES = new Databases(APP_CLIENT);
+
+const runtimeConfig = useRuntimeConfig();
+APP_CLIENT.setEndpoint(runtimeConfig.public.appwriteEndpoint).setProject(
+  runtimeConfig.public.appwriteProject
+);
+
+const getAccount = () => {
+  ACCOUNT.get()
+    .then((response) => {
+      console.log(response);
+    })
+    .catch((error) => {
+      console.log(error);
+      navigateTo("/auth");
+    });
+};
+getAccount();
+
+let options = [];
+
+let selectedUni = reactive({
+  name: "",
+  token: "",
+  $id: "",
+});
+
+const listUnis = async () => {
+  try {
+    const res = await DATABASES.listDocuments("uni_data", "uni");
+    // eslint-disable-next-line arrow-parens
+    options = res.documents.map((doc) => ({
+      name: doc.name,
+      token: doc.token,
+      $id: doc.$id,
+    }));
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+const searchUni = () => {
+  const searchTerm = this.searchInputUni.toUpperCase().trim();
+  const filteredOptions = options.filter((option) => {
+    return (
+      option.name.toUpperCase().includes(searchTerm) ||
+      option.token.toUpperCase().includes(searchTerm)
+    );
+  });
+};
+
+function searchMajor() {
+  // Declare variables
+  const INPUT = document.getElementById("searchInputMajor");
+  const FILTER = INPUT.value.toUpperCase();
+  const UL = document.getElementById("myMajorList");
+  const LI = UL.getElementsByTagName("li");
+
+  if (INPUT.value.length === "") {
+    UL.style.display = "none";
+    return;
+  } else {
+    UL.style.display = "block";
+  }
+  // Loop through all list items, and hide those who don't match the search query
+  for (let i = 0; i < LI.length; i++) {
+    const A = LI[i].getElementsByTagName("a")[0];
+    if (A.innerHTML.toUpperCase().includes(FILTER) > -1) {
+      LI[i].style.display = "block";
+    } else {
+      LI[i].style.display = "none";
+    }
+  }
+}
+
+onMounted(() => {
+  listUnis();
+  searchMajor();
+});
+</script> -->
+
+<script>
+import { Account, Client, Databases } from "appwrite";
+import { onMounted, reactive, toRefs } from "vue";
+
+export default {
+  middleware: "auth",
+
+  setup() {
+    const data = reactive({
+      selectedUni: "",
+      unis: [],
+      studyCourses: [],
+    });
+
+    const filteredUnis = computed(() => {
+      const searchTerm = data.selectedUni.toUpperCase().trim();
+      return data.unis.filter((option) => {
+        return (
+          option.name.toUpperCase().includes(searchTerm) ||
+          option.token.toUpperCase().includes(searchTerm)
+        );
+      });
+    });
+
+    const selectUni = (option) => {
+      data.selectedUni = option.name;
+      data.unis = [];
+    };
+
+    onMounted(async () => {
+      await listUnis();
+    });
+
+    const listUnis = async () => {
+      const APP_CLIENT = new Client();
+      const ACCOUNT = new Account(APP_CLIENT);
+      const DATABASES = new Databases(APP_CLIENT);
+
+      const runtimeConfig = useRuntimeConfig();
+      APP_CLIENT.setEndpoint(runtimeConfig.public.appwriteEndpoint).setProject(
+        runtimeConfig.public.appwriteProject
+      );
+
+      try {
+        await ACCOUNT.get();
+        const res = await DATABASES.listDocuments("uni_data", "uni");
+        // eslint-disable-next-line arrow-parens
+        data.unis = res.documents.map((doc) => ({
+          name: doc.name,
+          token: doc.token,
+          $id: doc.$id,
+        }));
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    return {
+      ...toRefs(data),
+      filteredUnis,
+      selectUni,
+    };
+  },
+};
+</script>
+
 <template>
   <div>
     <div class="mb-6 flex justify-center">
@@ -27,24 +179,39 @@
         <div class="">
           <!-- INPUT FIELD UNI -->
           <div class="relative flex items-center">
-            <span class="absolute scale-150 px-4 mb-1"> 🏫 </span>
-
             <form action="/action_page.php" method="get" class="block w-full">
               <input
                 id="searchInputUni"
+                v-model="selectedUni"
                 list="universities"
                 type="text"
                 class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Deine Universität"
-                @keyup="searchUni()"
               />
 
               <datalist id="universities">
-                <option value="RWTH Aachen"></option>
-                <option value="Fom"></option>
-                <option value="Universität Duisburg Essen"></option>
-                <option value="Universität Münster"></option>
+                <option
+                  v-for="option in filteredUnis"
+                  :key="option.$id"
+                  :value="option.name"
+                  @click="selectUni(option)"
+                >
+                  {{ option.name }}
+                </option>
               </datalist>
+
+              <ul
+                v-if="filteredUnis.length > 0"
+                class="mt-2 block w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
+              >
+                <li
+                  v-for="option in filteredUnis"
+                  :key="option.$id"
+                  @click="selectUni(option)"
+                >
+                  {{ option.name }}
+                </li>
+              </ul>
             </form>
           </div>
 
@@ -137,33 +304,3 @@
 
 </script>
 -->
-
-<script setup>
-onMounted(() => {
-  searchMajor();
-});
-
-function searchMajor() {
-  // Declare variables
-  const INPUT = document.getElementById("searchInputMajor");
-  const FILTER = INPUT.value.toUpperCase();
-  const UL = document.getElementById("myMajorList");
-  const LI = UL.getElementsByTagName("li");
-
-  if (INPUT.value.length === "") {
-    UL.style.display = "none";
-    return;
-  } else {
-    UL.style.display = "block";
-  }
-  // Loop through all list items, and hide those who don't match the search query
-  for (let i = 0; i < LI.length; i++) {
-    const A = LI[i].getElementsByTagName("a")[0];
-    if (A.innerHTML.toUpperCase().includes(FILTER) > -1) {
-      LI[i].style.display = "block";
-    } else {
-      LI[i].style.display = "none";
-    }
-  }
-}
-</script>
