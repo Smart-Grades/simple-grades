@@ -46,10 +46,7 @@
             id="myUniList"
             class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
           >
-            <li><a @click="() => takeUni('RWTH Aachen')" href="#">🎓 RWTH Aachen</a></li>
             <li><a @click="() => takeUni('FOM')" href="#">🎓 FOM</a></li>
-            <li><a @click="() => takeUni('Universität Duisburg-Essen')" href="#">🎓 Universität Duisburg-Essen</a></li>
-            <li><a @click="() => takeUni('Universität Münster')" href="#">🎓 Universität Münster</a></li>
           </ul>
         </div>
       </div>
@@ -81,8 +78,8 @@
             class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
           >
             <li><a @click="() => takeMajor('Wirtschaftsinformatik')" href="#">🎓 Wirtschaftsinformatik</a></li>
-            <li><a @click="() => takeMajor('Bwl')" href="#">🎓 Bwl</a></li>
-            <li><a @click="() => takeMajor('Vwl')" href="#">🎓 Vwl</a></li>
+            <li><a @click="() => takeMajor('BWL')" href="#">🎓 Bwl</a></li>
+            <li><a @click="() => takeMajor('VWL')" href="#">🎓 Vwl</a></li>
             <li><a @click="() => takeMajor('Computer Engineering')" href="#">🎓 Computer Engineering</a></li>
           </ul>
         </div>
@@ -101,20 +98,18 @@
 
 
 <script setup>
-const uniInput = ref("")
-const majorInput = ref("")
+  const uniInput = ref("")
+  const majorInput = ref("")
 
-function takeUni(university) {
-    uniInput.value = university
-    document.getElementById("myUniList").style.display = "none";
-}
+  function takeUni(university) {
+      uniInput.value = university
+      document.getElementById("myUniList").style.display = "none";
+  }
 
-function takeMajor(major) {
-    majorInput.value = major
-    document.getElementById("myMajorList").style.display = "none";
-}
-
-
+  function takeMajor(major) {
+      majorInput.value = major
+      document.getElementById("myMajorList").style.display = "none";
+  }
 
 
   function searchList(inputElement, listElement) {
