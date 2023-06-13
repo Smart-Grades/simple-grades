@@ -30,10 +30,10 @@
           class="flex flex-col items-center md:ml-5 md:items-start xl:items-center xl:ml-0"
         >
           <h2 class="font-main font-extrabold text-xl text-white sm:text-2xl">
-            Step 1
+            Schritt 1
           </h2>
           <p class="font-main text-white sm:text-lg">
-            Create an Account or Log In
+            Registriere dich oder melde dich an!
           </p>
         </div>
       </div>
@@ -64,10 +64,10 @@
           class="flex flex-col items-center md:ml-5 md:items-start xl:items-center xl:ml-0"
         >
           <h2 class="font-main font-extrabold text-xl text-white sm:text-2xl">
-            Step 2
+            Schritt 2
           </h2>
           <p class="font-main text-white sm:text-lg">
-            Choose your School and Subject
+            Wähle deine Universität und dein Studienfach!
           </p>
         </div>
       </div>
@@ -100,10 +100,10 @@
           <h2
             class="font-main font-extrabold text-xl text-white || sm:text-2xl"
           >
-            Step 3
+            Schritt 3
           </h2>
           <p class="font-main text-white || sm:text-lg">
-            Fill in your Grades and get your Report
+            Füge deine Noten hinzu und tracke deinen Fortschritt!
           </p>
         </div>
       </div>
@@ -112,8 +112,8 @@
     <!-- MacBook-Illustration -->
     <div class="mb-4 flex justify-center || 2xl:mb-20">
       <img
-        class="w-80 || sm:w-[35rem] || md:[42rem] || lg:w-[50rem] || xl:w-[55rem]"
-        src="/assets/img/macbookpro.png"
+        class="w-[40rem] || sm:w-[42rem] || md:[50rem] || lg:w-[62rem] || xl:w-[70rem]"
+        src="/assets/img/macbookpro-dashboard.png"
         alt="illustartion-macbook"
       />
     </div>
