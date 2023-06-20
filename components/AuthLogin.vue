@@ -3,7 +3,7 @@
     <div
       class="container flex items-center justify-center min-h-screen px-6 mx-auto"
     >
-      <form class="w-full max-w-md">
+      <form class="w-full max-w-md" @submit.prevent="handleInputChange">
         <div class="flex justify-center mx-auto">
           <NuxtLink to="/">
             <svg
@@ -59,6 +59,7 @@
           </span>
 
           <input
+            v-model="INPUT.mail"
             type="email"
             class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Email-Adresse"
@@ -84,6 +85,7 @@
           </span>
 
           <input
+            v-model="INPUT.password"
             type="password"
             class="block w-full px-11 py-3 border rounded-lg bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Passwort"
@@ -117,9 +119,49 @@
 </template>
 
 <script setup>
-const switchAuthPage = useState("toggleAuthPage");
+import { Account, Client } from "appwrite";
 
-function switchAuthForm() {
-  switchAuthPage.value = !switchAuthPage.value;
-}
+const SWITCH_AUTH_PAGE = useState("toggleAuthPage");
+const APP_CLIENT = new Client();
+const APP_ACCOUNT = new Account(APP_CLIENT);
+const RUNTIME_CONFIG = useRuntimeConfig();
+
+APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
+  RUNTIME_CONFIG.public.appwriteProject
+);
+
+await APP_ACCOUNT.get().then((res) => {
+  if (res.$id) {
+    navigateTo("/dashboard");
+  }
+});
+
+const INPUT = reactive({
+  mail: "",
+  password: "",
+});
+const INPUT_ERRORS = ref(false);
+
+const loginUser = async (mail, password) => {
+  try {
+    const RES = await APP_ACCOUNT.createEmailSession(mail, password);
+    if (RES.$id) {
+      navigateTo("/dashboard");
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+const switchAuthForm = () => {
+  SWITCH_AUTH_PAGE.value = !SWITCH_AUTH_PAGE.value;
+};
+
+const handleInputChange = () => {
+  INPUT_ERRORS.value = !(INPUT.mail && INPUT.password);
+
+  if (!INPUT_ERRORS.value) {
+    loginUser(INPUT.mail, INPUT.password);
+  }
+};
 </script>
