@@ -15,8 +15,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       url: process.env.CF_PAGES_URL || "http://localhost:3000",
-      appwriteEndpoint: "",
-      appwriteProject: "",
+      appwriteEndpoint: process.env.NUXT_PUBLIC_APPWRITE_ENDPOINT || "",
+      appwriteProject: process.env.NUXT_PUBLIC_APPWRITE_PROJECT || "",
     },
   },
 });
