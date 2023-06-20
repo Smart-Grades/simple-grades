@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  modules: ["nuxt-snackbar"],
+  snackbar: {
+    top: true,
+    duration: 5000,
+  },
   css: ["/public/assets/css/main.css"],
   postcss: {
     plugins: {
