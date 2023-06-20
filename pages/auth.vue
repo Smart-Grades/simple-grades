@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="h-full bg-dark">
-      <Login v-if="switchAuthPage" />
-      <Register v-if="!switchAuthPage" />
+      <AuthLogin v-if="switchAuthPage" />
+      <AuthRegister v-if="!switchAuthPage" />
     </div>
   </div>
 </template>
