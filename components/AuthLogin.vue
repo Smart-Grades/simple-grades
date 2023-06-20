@@ -131,7 +131,7 @@ APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
   RUNTIME_CONFIG.public.appwriteProject
 );
 
-console.log(RUNTIME_CONFIG.public.url);
+console.log(RUNTIME_CONFIG.public.url, RUNTIME_CONFIG.public.appwriteEndpoint);
 
 APP_ACCOUNT.get()
   .then((res) => {
