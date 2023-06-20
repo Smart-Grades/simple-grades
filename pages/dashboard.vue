@@ -1,15 +1,15 @@
 <template>
   <div>
     <div class="h-full bg-dark">
-      <TableNav />
-      <Table />
-      <Table />
-      <Table />
-      <Table />
-      <Table />
-      <Table />
-      <Table />
-      <TableResult />
+      <DashboardTableNav />
+      <DashboardTable />
+      <DashboardTable />
+      <DashboardTable />
+      <DashboardTable />
+      <DashboardTable />
+      <DashboardTable />
+      <DashboardTable />
+      <DashboardTableResult />
     </div>
   </div>
 </template>

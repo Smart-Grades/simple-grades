@@ -12,9 +12,9 @@
       <div class="space-x-3 flex items-center sm:space-x-4 lg:space-x-6">
         <NuxtLink to="/auth">
           <button
-            class="font-main font-bold text-2xs shadow-2xl bg-white border w-14 py-1 rounded-md transition ease-out duration-300 hover:scale-105 sm:w-20 sm:py-2 sm:text-xs lg:w-24 lg:py-2.5 lg:text-xs"
+            class="font-main font-bold text-2xs shadow-2xl bg-white border w-16 py-1 rounded-md transition ease-out duration-300 hover:scale-105 sm:w-20 sm:py-2 sm:text-xs lg:w-24 lg:py-2.5 lg:text-xs"
           >
-            Sign Up
+            Anmelden
           </button>
         </NuxtLink>
       </div>
