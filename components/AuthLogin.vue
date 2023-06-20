@@ -125,16 +125,21 @@ const SWITCH_AUTH_PAGE = useState("toggleAuthPage");
 const APP_CLIENT = new Client();
 const APP_ACCOUNT = new Account(APP_CLIENT);
 const RUNTIME_CONFIG = useRuntimeConfig();
+const SNACKBAR = useSnackbar();
 
 APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
   RUNTIME_CONFIG.public.appwriteProject
 );
 
-await APP_ACCOUNT.get().then((res) => {
-  if (res.$id) {
-    navigateTo("/dashboard");
-  }
-});
+console.log(RUNTIME_CONFIG.public.url);
+
+APP_ACCOUNT.get()
+  .then((res) => {
+    if (res.$id) {
+      navigateTo("/dashboard");
+    }
+  })
+  .catch((_err) => {});
 
 const INPUT = reactive({
   mail: "",
@@ -146,10 +151,23 @@ const loginUser = async (mail, password) => {
   try {
     const RES = await APP_ACCOUNT.createEmailSession(mail, password);
     if (RES.$id) {
-      navigateTo("/dashboard");
+      APP_ACCOUNT.get().then((res) => {
+        if (!res.emailVerification) {
+          SNACKBAR.add({
+            type: "warning",
+            text: "Bitte verifiziere deine E-Mail-Adresse.",
+          });
+        } else {
+          navigateTo("/dashboard");
+        }
+      });
     }
   } catch (error) {
     console.error(error);
+    SNACKBAR.add({
+      type: "error",
+      text: "Ein Fehler ist aufgetreten.",
+    });
   }
 };
 
