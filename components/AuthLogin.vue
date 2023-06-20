@@ -12,7 +12,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-12 h-12 text-white"
+              class="w-12 h-12 text-white hover:scale-110 cursor-pointer duration-300 ease-out-in"
             >
               <path
                 stroke-linecap="round"
@@ -44,7 +44,7 @@
           <span class="absolute">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6 mx-3 text-gray-500"
+              class="w-6 h-6 mx-3 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -60,7 +60,7 @@
 
           <input
             type="email"
-            class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Email-Adresse"
           />
         </div>
@@ -69,7 +69,7 @@
           <span class="absolute">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6 mx-3 text-gray-500"
+              class="w-6 h-6 mx-3 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -85,7 +85,7 @@
 
           <input
             type="password"
-            class="block w-full px-11 py-3 border rounded-lg bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full px-11 py-3 border rounded-lg bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Passwort"
           />
         </div>
@@ -101,13 +101,13 @@
         <div class="mt-4 flex justify-between">
           <a
             href="#"
-            class="text-sm text-gray-500 hover:underline"
+            class="text-sm text-gray-200 hover:underline"
             @click="() => switchAuthForm()"
           >
             Besitzt du noch keinen Account?
           </a>
 
-          <a href="#" class="text-sm text-gray-500 hover:underline">
+          <a href="#" class="text-sm text-gray-200 hover:underline">
             Passwort vergessen?
           </a>
         </div>
