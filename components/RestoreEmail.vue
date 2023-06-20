@@ -14,16 +14,12 @@
       <div class="w-80 md:w-96 lg:w-[500px]">
         <div>
           <div class="mb-3">
-            <p class="text-sm text-gray-300 font-semibold mb-1">
-              Email 
-            </p>
+            <p class="text-sm text-gray-300 font-semibold mb-1">Email</p>
             <p class="border-b-2 w-1/2"></p>
           </div>
 
           <div class="relative flex items-center">
-            <span class="absolute scale-150 px-3 mb-2">
-              📨
-            </span>
+            <span class="absolute scale-150 px-3 mb-2"> 📨 </span>
 
             <input
               type="email"
