@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      url: "",
+      url: process.env.CF_PAGES_URL || "http://localhost:3000",
       appwriteEndpoint: "",
       appwriteProject: "",
     },
