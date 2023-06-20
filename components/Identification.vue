@@ -1,20 +1,22 @@
 <template>
   <div>
     <div class="mb-6 flex justify-center">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-12 h-12 text-white"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
-        />
-      </svg>
+      <NuxtLink to="/">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-12 h-12 text-white"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+          />
+        </svg>
+      </NuxtLink>
     </div>
 
     <div class="w-80 md:w-96 lg:w-[500px]">
@@ -27,35 +29,25 @@
         <div class="">
           <!-- INPUT FIELD UNI -->
           <div class="relative flex items-center">
-            <span class="absolute scale-150 px-4 mb-1"> 🏫 </span>
+            <span class="absolute px-3.5 mb-1.5 scale-150"> 🏫 </span>
 
-            <form action="/action_page.php" method="get" class="block w-full">
-              <input
-                id="searchInputUni"
-                list="universities"
-                type="text"
-                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
-                placeholder="Deine Universität"
-                @keyup="searchUni()"
-              />
-
-              <datalist id="universities">
-                <option value="RWTH Aachen"></option>
-                <option value="Fom"></option>
-                <option value="Universität Duisburg Essen"></option>
-                <option value="Universität Münster"></option>
-              </datalist>
-            </form>
+            <input
+              id="searchInputUni"
+              v-model="uniInput"
+              type="text"
+              class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+              placeholder="Deine Universität"
+              @keyup="searchList('searchInputUni', 'myUniList')"
+            />
           </div>
 
-          <!-- SEARCH LIST UNI
-            <ul id="myUniList" class="mt-2 block w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300">
-              <li><a href="#">🏫 RWTH Aachen</a></li>
-              <li><a href="#">🏫 Fom</a></li>
-              <li><a href="#">🏫 Universität Duisburg Essen</a></li>
-              <li><a href="#">🏫 Universität Münster</a></li>
-            </ul>
-          -->
+          <!-- SEARCH LIST MAJOR -->
+          <ul
+            id="myUniList"
+            class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
+          >
+            <li><a @click="() => takeUni('FOM')" href="#">🎓 FOM</a></li>
+          </ul>
         </div>
       </div>
 
@@ -68,26 +60,37 @@
         <div class="">
           <!-- INPUT FIELD MAJOR -->
           <div class="relative flex items-center">
-            <span class="absolute px-4 scale-150"> 📖 </span>
+            <span class="absolute px-3.5 mb-1.5 scale-150"> 📖 </span>
 
             <input
               id="searchInputMajor"
+              v-model="majorInput"
               type="text"
               class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
-              placeholder="Deine Universität"
-              @keyup="searchMajor()"
+              placeholder="Dein Studiengang"
+              @keyup="searchList('searchInputMajor', 'myMajorList')"
             />
           </div>
 
           <!-- SEARCH LIST MAJOR -->
           <ul
             id="myMajorList"
-            class="mt-2 block w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
+            class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
           >
-            <li><a href="#">🎓 Wirtschaftsinformatik</a></li>
-            <li><a href="#">🎓 Bwl</a></li>
-            <li><a href="#">🎓 Vwl</a></li>
-            <li><a href="#">🎓 Computer Engineering</a></li>
+            <li>
+              <a href="#" @click="() => takeMajor('Wirtschaftsinformatik')">
+                🎓 Wirtschaftsinformatik
+              </a>
+            </li>
+            <li><a href="#" @click="() => takeMajor('BWL')"> 🎓 Bwl </a></li>
+            <li>
+              <a href="#" @click="() => takeMajor('VWL')"> 🎓 Vwl </a>
+            </li>
+            <li>
+              <a href="#" @click="() => takeMajor('Computer Engineering')">
+                🎓 Computer Engineering
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -97,73 +100,56 @@
       <button
         class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-fom rounded-lg hover:opacity-80 hover:transition hover:ease-out-in hover:duration-250 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
       >
-        Get Started
+        Loslegen
       </button>
     </div>
   </div>
 </template>
 
-<!--
-
 <script setup>
-  onMounted(() => {
-      searchUni()
-    })
+const uniInput = ref("");
+const majorInput = ref("");
 
-  function searchUni() {
-      // Declare variables
-      var input, filter, ul, li, a, i;
-      input = document.getElementById('searchInputUni');
-      filter = input.value.toUpperCase();
-      ul = document.getElementById("myUniList");
-      li = ul.getElementsByTagName('li');
+function takeUni(university) {
+  uniInput.value = university;
+  document.getElementById("myUniList").style.display = "none";
+}
 
-      if(input.value.length == ""){
-          ul.style.display = "none";
-          return;
-      }else{
-          ul.style.display = "block";
-      }
-      // Loop through all list items, and hide those who don't match the search query
-      for (i = 0; i < li.length; i++) {
-          a = li[i].getElementsByTagName("a")[0];
-          if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-              li[i].style.display = "block";
-          } else {
-              li[i].style.display = "none";
-          }
-      }
-  }
+function takeMajor(major) {
+  majorInput.value = major;
+  document.getElementById("myMajorList").style.display = "none";
+}
 
-</script>
--->
-
-<script setup>
-onMounted(() => {
-  searchMajor();
-});
-
-function searchMajor() {
-  // Declare variables
-  const INPUT = document.getElementById("searchInputMajor");
+function searchList(inputElement, listElement) {
+  const INPUT = document.getElementById(inputElement);
   const FILTER = INPUT.value.toUpperCase();
-  const UL = document.getElementById("myMajorList");
+  const UL = document.getElementById(listElement);
   const LI = UL.getElementsByTagName("li");
 
-  if (INPUT.value.length === "") {
+  if (INPUT.value.length === 0) {
     UL.style.display = "none";
     return;
   } else {
     UL.style.display = "block";
   }
+
+  let count = 0;
+
   // Loop through all list items, and hide those who don't match the search query
   for (let i = 0; i < LI.length; i++) {
     const A = LI[i].getElementsByTagName("a")[0];
-    if (A.innerHTML.toUpperCase().includes(FILTER) > -1) {
+    if (A.innerHTML.toUpperCase().includes(FILTER)) {
       LI[i].style.display = "block";
+      count++;
     } else {
       LI[i].style.display = "none";
     }
+  }
+
+  if (count === 0) {
+    UL.style.display = "none";
+  } else {
+    UL.style.display = "block";
   }
 }
 </script>
