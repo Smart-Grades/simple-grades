@@ -7,4 +7,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      url: "",
+      appwriteEndpoint: "",
+      appwriteProject: "",
+    },
+  },
 });
