@@ -18,9 +18,7 @@
           </div>
 
           <div class="relative flex items-center">
-            <span class="absolute px-3.5">
-              🗝️
-            </span>
+            <span class="absolute px-3.5"> 🗝️ </span>
 
             <input
               type="password"
@@ -39,9 +37,7 @@
           </div>
 
           <div class="relative flex items-center">
-            <span class="absolute px-3.5">
-              🗝️
-            </span>
+            <span class="absolute px-3.5"> 🗝️ </span>
 
             <input
               type="password"
