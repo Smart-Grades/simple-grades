@@ -8,7 +8,7 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-12 h-12 text-white"
+          class="w-12 h-12 text-white hover:scale-110 cursor-pointer duration-300 ease-out-in"
         >
           <path
             stroke-linecap="round"
@@ -22,20 +22,20 @@
     <div class="w-80 md:w-96 lg:w-[500px]">
       <div class="">
         <div class="mb-3">
-          <p class="text-sm text-gray-300 font-semibold mb-1">Universität</p>
+          <p class="text-sm text-white font-semibold mb-1">Universität</p>
           <p class="border-b-2 w-1/3"></p>
         </div>
 
         <div class="">
           <!-- INPUT FIELD UNI -->
           <div class="relative flex items-center">
-            <span class="absolute px-3.5 mb-1.5 scale-150"> 🏫 </span>
+            <span class="absolute px-3.5 mb-1.5 ml-1 scale-150"> 🏫 </span>
 
             <input
               id="searchInputUni"
               v-model="uniInput"
               type="text"
-              class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+              class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
               placeholder="Deine Universität"
               @keyup="searchList('searchInputUni', 'myUniList')"
             />
@@ -46,7 +46,7 @@
             id="myUniList"
             class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
           >
-            <li><a @click="() => takeUni('FOM')" href="#">🎓 FOM</a></li>
+            <li><a href="#" @click="() => takeUni('FOM')">🎓 FOM</a></li>
           </ul>
         </div>
       </div>
@@ -60,13 +60,13 @@
         <div class="">
           <!-- INPUT FIELD MAJOR -->
           <div class="relative flex items-center">
-            <span class="absolute px-3.5 mb-1.5 scale-150"> 📖 </span>
+            <span class="absolute px-3.5 scale-150 ml-1"> 📖 </span>
 
             <input
               id="searchInputMajor"
               v-model="majorInput"
               type="text"
-              class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+              class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
               placeholder="Dein Studiengang"
               @keyup="searchList('searchInputMajor', 'myMajorList')"
             />

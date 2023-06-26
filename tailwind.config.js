@@ -42,7 +42,7 @@ module.exports = {
     extend: {
       colors: {
         dark: "#1b1b1b",
-        fom: "#00352e",
+        fom: "#22937B",
       },
     },
   },

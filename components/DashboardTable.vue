@@ -11,7 +11,7 @@
           </span>
 
           <input
-            class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Studienfach"
             type="text"
             readonly
@@ -22,20 +22,21 @@
           class="flex justify-between items-center gap-4 md:gap-10 lg:gap-16"
         >
           <input
-            class="block w-full py-3 border rounded-lg bg-transparent text-center text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full py-3 border rounded-lg bg-transparent text-center text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Credits"
             type="text"
             readonly
           />
           <span class="font-main font-bold text-white text-2xl mt-2">*</span>
           <input
-            class="block w-full py-3 border rounded-lg bg-transparent text-center text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full py-3 border rounded-lg bg-transparent text-center text-white font-bold border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Note"
-            type="text"
+            type="number"
+            step="0.1"
           />
           <span class="font-main font-bold text-white text-2xl">=</span>
           <input
-            class="block w-full py-3 border rounded-lg bg-transparent text-center text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full py-3 border rounded-lg bg-transparent text-center text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Wertung"
             type="text"
             readonly

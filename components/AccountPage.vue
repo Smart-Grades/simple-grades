@@ -9,7 +9,7 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-12 h-12 text-white"
+          class="w-12 h-12 text-white hover:scale-110 cursor-pointer duration-300 ease-out-in"
         >
           <path
             stroke-linecap="round"
@@ -34,7 +34,7 @@
       <div class="w-80 md:w-96 lg:w-[500px]">
         <div class="">
           <div class="mb-3">
-            <p class="text-sm text-gray-300 font-semibold mb-1">
+            <p class="text-sm text-white font-semibold mb-1">
               Neue Universität
             </p>
             <p class="border-b-2 w-1/2"></p>
@@ -49,7 +49,7 @@
                 id="searchInputUni"
                 v-model="uniInput"
                 type="text"
-                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Deine Universität"
                 @keyup="searchList('searchInputUni', 'myUniList')"
               />
@@ -58,7 +58,7 @@
             <!-- SEARCH LIST MAJOR -->
             <ul
               id="myUniList"
-              class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
+              class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-200"
             >
               <li>
                 <a href="#" @click="() => takeUni('RWTH Aachen')"
@@ -84,7 +84,7 @@
 
         <div class="mt-4">
           <div class="mb-3">
-            <p class="text-sm text-gray-300 font-semibold mb-1">
+            <p class="text-sm text-white font-semibold mb-1">
               Neuer Studiengang
             </p>
             <p class="border-b-2 w-1/2"></p>
@@ -99,7 +99,7 @@
                 id="searchInputMajor"
                 v-model="majorInput"
                 type="text"
-                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Dein Studiengang"
                 @keyup="searchList('searchInputMajor', 'myMajorList')"
               />
@@ -108,7 +108,7 @@
             <!-- SEARCH LIST MAJOR -->
             <ul
               id="myMajorList"
-              class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
+              class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-200"
             >
               <li>
                 <a href="#" @click="() => takeMajor('Wirtschaftsinformatik')"
