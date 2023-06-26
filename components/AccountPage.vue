@@ -2,7 +2,7 @@
   <div>
     <div class=""></div>
     <div class="mb-2">
-      <NuxtLink to="/" >
+      <NuxtLink to="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

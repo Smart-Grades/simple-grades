@@ -26,7 +26,7 @@
             stroke-width="1.5"
           />
         </svg>
-    </NuxtLink>
+      </NuxtLink>
     </div>
   </div>
 </template>

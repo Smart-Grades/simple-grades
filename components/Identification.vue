@@ -46,7 +46,7 @@
             id="myUniList"
             class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
           >
-            <li><a @click="() => takeUni('FOM')" href="#">🎓 FOM</a></li>
+            <li><a href="#" @click="() => takeUni('FOM')">🎓 FOM</a></li>
           </ul>
         </div>
       </div>
