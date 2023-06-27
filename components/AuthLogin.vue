@@ -109,7 +109,7 @@
             Besitzt du noch keinen Account?
           </a>
 
-          <a href="#" class="text-sm text-gray-200 hover:underline">
+          <a href="/restore" class="text-sm text-gray-200 hover:underline">
             Passwort vergessen?
           </a>
         </div>
