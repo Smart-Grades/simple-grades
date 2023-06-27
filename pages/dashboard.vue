@@ -15,7 +15,9 @@
 </template>
 
 <script setup>
-definePageMeta({
-  middleware: ["auth"],
-});
+const isLoggedIn = useState("isLoggedIn");
+
+if (!isLoggedIn.value) {
+  await navigateTo("/auth");
+}
 </script>

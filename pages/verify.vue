@@ -9,33 +9,22 @@ const APP_CLIENT = new Client();
 const APP_ACCOUNT = new Account(APP_CLIENT);
 const RUNTIME_CONFIG = useRuntimeConfig();
 const SNACKBAR = useSnackbar();
-const isLoggedIn = useState("isLoggedIn");
 
 APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
   RUNTIME_CONFIG.public.appwriteProject
 );
 
-const logout = async () => {
-  console.log("logout");
+const verify = async (userId, secret) => {
   try {
-    // Delete session
-    const RES = await APP_ACCOUNT.deleteSession("current");
+    await APP_ACCOUNT.updateVerification(userId, secret);
 
-    if (RES) {
-      console.log("logout success");
-      isLoggedIn.value = false;
-      setTimeout(async () => {
-        await navigateTo("/");
-      }, 0);
-    } else {
-      SNACKBAR.add({
-        type: "error",
-        text: "Ein Fehler ist aufgetreten.",
-      });
-      setTimeout(async () => {
-        await navigateTo("/");
-      }, 0);
-    }
+    SNACKBAR.add({
+      type: "success",
+      text: "Dein Account wurde erfolgreich verifiziert.",
+    });
+    setTimeout(async () => {
+      await navigateTo("/");
+    }, 0);
   } catch (error) {
     console.error(error);
     SNACKBAR.add({
@@ -48,5 +37,14 @@ const logout = async () => {
   }
 };
 
-await logout();
+const route = useRoute();
+
+const userId = route.query.userId;
+const secret = route.query.secret;
+
+if (userId && secret) {
+  await verify(userId, secret);
+} else {
+  await navigateTo("/auth");
+}
 </script>

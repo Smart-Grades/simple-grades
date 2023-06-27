@@ -3,7 +3,7 @@
     <div
       class="container flex items-center justify-center min-h-screen px-6 mx-auto"
     >
-      <form class="w-full max-w-md">
+      <form class="w-full max-w-md" @submit.prevent="handleInputChange">
         <div class="flex justify-center mx-auto">
           <NuxtLink to="/">
             <svg
@@ -59,6 +59,7 @@
           </span>
 
           <input
+            v-model="INPUT.email"
             type="email"
             class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Email-Adresse"
@@ -84,6 +85,7 @@
           </span>
 
           <input
+            v-model="INPUT.password"
             type="password"
             class="block w-full px-11 py-3 border rounded-lg bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Passwort"
@@ -109,6 +111,7 @@
           </span>
 
           <input
+            v-model="INPUT.passwordRepeat"
             type="password"
             class="block w-full px-11 py-3 border rounded-lg bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Passwort wiederholen"
@@ -138,9 +141,96 @@
 </template>
 
 <script setup>
-const switchAuthPage = useState("toggleAuthPage");
+import { Account, Client, ID } from "appwrite";
 
-function switchAuthForm() {
-  switchAuthPage.value = !switchAuthPage.value;
-}
+const APP_CLIENT = new Client();
+const APP_ACCOUNT = new Account(APP_CLIENT);
+const RUNTIME_CONFIG = useRuntimeConfig();
+
+APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
+  RUNTIME_CONFIG.public.appwriteProject
+);
+
+const SWITCH_AUTH_PAGE = useState("toggleAuthPage");
+const isLoggedIn = useState("isLoggedIn");
+const SNACKBAR = useSnackbar();
+
+const INPUT = reactive({
+  email: "",
+  password: "",
+  passwordRepeat: "",
+});
+
+const getVerifyUrl = () => {
+  return `${window.location.protocol}//${window.location.host}/verify`;
+};
+
+const login = async (email, password) => {
+  console.log("login");
+  let lIsLoggedIn = false;
+  await APP_ACCOUNT.createEmailSession(email, password)
+    .then((_res) => {
+      console.log("login success", _res);
+      isLoggedIn.value = true;
+      lIsLoggedIn = true;
+    })
+    .catch((error) => {
+      console.error(error);
+      return false;
+    });
+  return lIsLoggedIn;
+};
+
+const logout = async () => {
+  console.log("logout");
+  try {
+    // Delete session
+    await APP_ACCOUNT.deleteSession("current");
+    isLoggedIn.value = false;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+const register = async (email, password) => {
+  console.log("register");
+  try {
+    await APP_ACCOUNT.create(ID.unique(), email, password);
+    if (await login(email, password)) {
+      await APP_ACCOUNT.createVerification(getVerifyUrl());
+      await logout();
+      SNACKBAR.add({
+        text: "Du hast dich erfolgreich registriert. Bitte verifiziere deine Email-Adresse.",
+        type: "success",
+      });
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+const handleInputChange = async () => {
+  if (!INPUT.email || !INPUT.password || !INPUT.passwordRepeat) {
+    SNACKBAR.add({
+      text: "Bitte fülle alle Felder aus.",
+      type: "error",
+    });
+  }
+  if (INPUT.password !== INPUT.passwordRepeat) {
+    SNACKBAR.add({
+      text: "Die Passwörter stimmen nicht überein.",
+      type: "error",
+    });
+  }
+
+  if (await register(INPUT.email, INPUT.password)) {
+    INPUT.email = "";
+    INPUT.password = "";
+    navigateTo("/ident");
+  }
+};
+
+const switchAuthForm = () => {
+  SWITCH_AUTH_PAGE.value = !SWITCH_AUTH_PAGE.value;
+};
 </script>

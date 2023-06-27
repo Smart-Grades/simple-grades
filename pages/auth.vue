@@ -9,4 +9,8 @@
 
 <script setup>
 const switchAuthPage = useState("toggleAuthPage", () => true);
+const isLoggedIn = useState("isLoggedIn");
+if (isLoggedIn.value) {
+  navigateTo("/dashboard");
+}
 </script>

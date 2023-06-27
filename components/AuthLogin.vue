@@ -122,6 +122,7 @@
 import { Account, Client } from "appwrite";
 
 const SWITCH_AUTH_PAGE = useState("toggleAuthPage");
+const isLoggedIn = useState("isLoggedIn");
 const APP_CLIENT = new Client();
 const APP_ACCOUNT = new Account(APP_CLIENT);
 const RUNTIME_CONFIG = useRuntimeConfig();
@@ -131,13 +132,9 @@ APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
   RUNTIME_CONFIG.public.appwriteProject
 );
 
-APP_ACCOUNT.get()
-  .then((res) => {
-    if (res.$id) {
-      navigateTo("/dashboard");
-    }
-  })
-  .catch((_err) => {});
+if (isLoggedIn.value) {
+  navigateTo("/dashboard");
+}
 
 const INPUT = reactive({
   mail: "",
@@ -145,7 +142,7 @@ const INPUT = reactive({
 });
 const INPUT_ERRORS = ref(false);
 
-const loginUser = async (mail, password) => {
+const login = async (mail, password) => {
   try {
     const RES = await APP_ACCOUNT.createEmailSession(mail, password);
     if (RES.$id) {
@@ -156,6 +153,7 @@ const loginUser = async (mail, password) => {
             text: "Bitte verifiziere deine E-Mail-Adresse.",
           });
         } else {
+          isLoggedIn.value = true;
           navigateTo("/dashboard");
         }
       });
@@ -177,7 +175,7 @@ const handleInputChange = () => {
   INPUT_ERRORS.value = !(INPUT.mail && INPUT.password);
 
   if (!INPUT_ERRORS.value) {
-    loginUser(INPUT.mail, INPUT.password);
+    login(INPUT.mail, INPUT.password);
   }
 };
 </script>
