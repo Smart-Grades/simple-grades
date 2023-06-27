@@ -221,6 +221,8 @@ export default {
 
       try {
         const RES = await APP_DATABASE.listDocuments("uni_data", "major_data", [
+          Query.limit(100),
+          Query.sort("name", "asc"),
           Query.equal("uni_id", uniId),
         ]);
 
