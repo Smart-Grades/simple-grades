@@ -3,7 +3,7 @@
     <div
       class="container flex items-center justify-center min-h-screen px-6 mx-auto"
     >
-      <form class="w-full max-w-md">
+      <form class="w-full max-w-md" @submit.prevent="handleInputChange">
         <div class="flex justify-center mx-auto">
           <NuxtLink to="/">
             <svg
@@ -59,6 +59,7 @@
           </span>
 
           <input
+            v-model="INPUT.mail"
             type="email"
             class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Email-Adresse"
@@ -84,6 +85,7 @@
           </span>
 
           <input
+            v-model="INPUT.password"
             type="password"
             class="block w-full px-11 py-3 border rounded-lg bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Passwort"
@@ -117,9 +119,63 @@
 </template>
 
 <script setup>
-const switchAuthPage = useState("toggleAuthPage");
+import { Account, Client } from "appwrite";
 
-function switchAuthForm() {
-  switchAuthPage.value = !switchAuthPage.value;
+const SWITCH_AUTH_PAGE = useState("toggleAuthPage");
+const isLoggedIn = useState("isLoggedIn");
+const APP_CLIENT = new Client();
+const APP_ACCOUNT = new Account(APP_CLIENT);
+const RUNTIME_CONFIG = useRuntimeConfig();
+const SNACKBAR = useSnackbar();
+
+APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
+  RUNTIME_CONFIG.public.appwriteProject
+);
+
+if (isLoggedIn.value) {
+  navigateTo("/dashboard");
 }
+
+const INPUT = reactive({
+  mail: "",
+  password: "",
+});
+const INPUT_ERRORS = ref(false);
+
+const login = async (mail, password) => {
+  try {
+    const RES = await APP_ACCOUNT.createEmailSession(mail, password);
+    if (RES.$id) {
+      APP_ACCOUNT.get().then((res) => {
+        if (!res.emailVerification) {
+          SNACKBAR.add({
+            type: "warning",
+            text: "Bitte verifiziere deine E-Mail-Adresse.",
+          });
+        } else {
+          isLoggedIn.value = true;
+          navigateTo("/dashboard");
+        }
+      });
+    }
+  } catch (error) {
+    console.error(error);
+    SNACKBAR.add({
+      type: "error",
+      text: "Ein Fehler ist aufgetreten.",
+    });
+  }
+};
+
+const switchAuthForm = () => {
+  SWITCH_AUTH_PAGE.value = !SWITCH_AUTH_PAGE.value;
+};
+
+const handleInputChange = () => {
+  INPUT_ERRORS.value = !(INPUT.mail && INPUT.password);
+
+  if (!INPUT_ERRORS.value) {
+    login(INPUT.mail, INPUT.password);
+  }
+};
 </script>
