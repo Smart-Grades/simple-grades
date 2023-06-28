@@ -10,10 +10,12 @@
 
           <FloatLabel class="w-full">
             <input
+              :value="course"
               class="block w-full lg:w-[28rem] xl:w-[38rem] py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
               placeholder="Studienfach"
               type="text"
-              readonly
+              @blur="$emit('update:course', $event.target.value)"
+              @input="shouldReset = false"
             />
           </FloatLabel>
         </div>
@@ -24,19 +26,24 @@
           >
             <FloatLabel>
               <input
+                :value="credits"
                 class="block w-full py-3 border rounded-lg bg-transparent text-center text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Credits"
                 type="text"
-                readonly
+                :readonly="id === 'new'"
+                @blur="$emit('update:credits', $event.target.value)"
               />
             </FloatLabel>
 
             <FloatLabel>
               <input
+                :value="grade"
                 class="block w-full py-3 border rounded-lg bg-transparent text-center text-white font-bold border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Note"
                 type="number"
                 step="0.1"
+                :readonly="id === 'new'"
+                @blur="$emit('update:grade', $event.target.value)"
               />
             </FloatLabel>
 
@@ -44,6 +51,7 @@
 
             <FloatLabel>
               <input
+                :value="((credits / totalCredits) * 100).toFixed(2)"
                 class="block w-full py-3 border rounded-lg bg-transparent text-center text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Wertung"
                 type="text"
@@ -61,9 +69,6 @@
         viewBox="0 0 1280.000000 1280.000000"
         preserveAspectRatio="xMidYMid meet"
       >
-        <metadata>
-          Created by potrace 1.15, written by Peter Selinger 2001-2017
-        </metadata>
         <g
           transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
           stroke="none"
@@ -83,10 +88,47 @@
 
 <script>
 import FloatLabel from "vue-float-label/components/FloatLabel";
-
 export default {
   components: {
     FloatLabel,
+  },
+  props: {
+    id: {
+      type: String,
+      required: true,
+    },
+    course: {
+      type: String,
+      required: false,
+    },
+    credits: {
+      type: Number,
+      required: false,
+    },
+    grade: {
+      type: Number,
+      required: false,
+    },
+    totalCredits: {
+      type: Number,
+      required: false,
+    },
+    clearValues: {
+      type: Boolean,
+      required: false,
+    },
+  },
+  data() {
+    return {
+      shouldReset: false,
+    };
+  },
+  watch: {
+    clearValues(newValue) {
+      if (newValue) {
+        this.shouldReset = true;
+      }
+    },
   },
 };
 </script>
@@ -95,11 +137,9 @@ export default {
 .vfl-label {
   text-transform: uppercase;
 }
-
 .vfl-label-on-input {
   top: -1.5rem;
 }
-
 .vfl-label-on-focus {
   color: #ffffff;
 }
