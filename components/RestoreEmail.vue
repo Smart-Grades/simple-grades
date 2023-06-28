@@ -2,11 +2,19 @@
   <div>
     <!-- MAIN -->
     <form class="" @submit.prevent="handleInputChange">
+      <div class="flex justify-start mb-2 mx-auto">
+          <NuxtLink to="/">
+            <div class="-ml-3">
+              <img src="/assets/img/logo.png" class="w-20 h-20 hover:scale-110 duration-300 ease-out-in" alt="SmartGrades-Logo">
+            </div>
+          </NuxtLink>
+        </div>
+
       <div class="mb-6 flex-col items-center justify-center">
-        <p class="font-main text-xl text-white font-bold cursor-pointer">
+        <p class="font-main text-xl text-white font-bold">
           Passwort vergessen?
         </p>
-        <p class="font-main text-xl text-white font-bold cursor-pointer">
+        <p class="font-main text-xl text-white font-bold">
           Email angeben!
         </p>
       </div>
@@ -19,7 +27,7 @@
           </div>
 
           <div class="relative flex items-center">
-            <span class="absolute scale-150 px-3 mb-2"> 📨 </span>
+            <span class="absolute scale-150 px-4"> 📧 </span>
 
             <input
               v-model="INPUT.email"
