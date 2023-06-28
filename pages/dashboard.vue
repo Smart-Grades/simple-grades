@@ -86,7 +86,7 @@ export default {
       .catch((error) => {
         console.error(error);
         SNACKBAR.add({
-          message: error.message,
+          text: error.message,
           type: "error",
         });
       });
