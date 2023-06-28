@@ -6,9 +6,7 @@
         class="space-y-10 lg:space-y-0 lg:flex md:justify-center md:gap-10 lg:gap-16"
       >
         <div class="flex items-center">
-          <span class="absolute scale-150 px-4">
-            📖
-          </span>
+          <span class="absolute scale-150 px-4"> 📖 </span>
 
           <FloatLabel class="w-full">
             <input
@@ -56,34 +54,54 @@
         </div>
       </div>
 
-      <span class="block cursor-pointer hover:scale-150 active:scale-110 duration-300 ease-out-in">
-            ❌
-      </span>
+      <svg
+        version="1.0"
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-8 h-8 fill-gray-200 hover:fill-red-800 cursor-pointer hover:scale-125 active:scale-110 duration-300 ease-out-in"
+        viewBox="0 0 1280.000000 1280.000000"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <metadata>
+          Created by potrace 1.15, written by Peter Selinger 2001-2017
+        </metadata>
+        <g
+          transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+          stroke="none"
+        >
+          <path
+            d="M3137 9659 l-537 -539 1360 -1360 1360 -1360 -1360 -1360 -1360
+-1360 540 -540 540 -540 1360 1360 1360 1360 1360 -1360 1360 -1360 540 540
+540 540 -1360 1360 -1360 1360 1360 1360 1360 1360 -540 540 -540 540 -1360
+-1360 -1360 -1360 -1360 1360 c-748 748 -1361 1360 -1362 1359 -2 0 -245 -243
+-541 -540z"
+          />
+        </g>
+      </svg>
     </div>
   </div>
 </template>
 
 <script>
-  import FloatLabel from 'vue-float-label/components/FloatLabel'
-  
-  export default {
-    components: {
-      FloatLabel
-    }
-  }
+import FloatLabel from "vue-float-label/components/FloatLabel";
+
+export default {
+  components: {
+    FloatLabel,
+  },
+};
 </script>
 
 <style>
 .vfl-label {
   text-transform: uppercase;
 }
- 
+
 .vfl-label-on-input {
   top: -1.5rem;
 }
- 
+
 .vfl-label-on-focus {
   color: #ffffff;
 }
-
 </style>
+
