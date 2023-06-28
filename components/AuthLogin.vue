@@ -6,7 +6,11 @@
       <form class="w-full max-w-md" @submit.prevent="handleInputChange">
         <div class="flex justify-center mx-auto">
           <NuxtLink to="/">
-            <img src="/assets/img/logo.png" class="w-20 h-20 hover:scale-110 duration-300 ease-out-in" alt="SmartGrades-Logo">
+            <img
+              src="/assets/img/logo.png"
+              class="w-20 h-20 hover:scale-110 duration-300 ease-out-in"
+              alt="SmartGrades-Logo"
+            />
           </NuxtLink>
         </div>
 
@@ -39,9 +43,7 @@
         </div>
 
         <div class="relative flex items-center mt-4">
-          <span class="absolute px-4 mb-0.5 scale-150">
-            🔒
-          </span>
+          <span class="absolute px-4 mb-0.5 scale-150"> 🔒 </span>
 
           <input
             v-model="INPUT.password"
@@ -59,7 +61,7 @@
           </button>
         </div>
 
-        <div class="mt-4 flex flex-wrap leading-6 justify-between">
+        <div class="mt-6 flex flex-wrap justify-between">
           <a
             href="#"
             class="text-sm text-gray-200 hover:underline"
