@@ -207,7 +207,7 @@ export default {
       } catch (error) {
         console.error(error);
         SNACKBAR.add({
-          message: error.message,
+          text: error.message,
           type: "error",
         });
       }
@@ -228,7 +228,7 @@ export default {
       } catch (error) {
         console.error(error);
         SNACKBAR.add({
-          message: error.message,
+          text: error.message,
           type: "error",
         });
       }
@@ -246,7 +246,7 @@ export default {
       } catch (error) {
         console.error(error);
         SNACKBAR.add({
-          message: error.message,
+          text: error.message,
           type: "error",
         });
       }
@@ -254,19 +254,17 @@ export default {
 
     const deleteUserCourses = async (userId, courses) => {
       try {
-        const promises = courses.map((course) => {
-          return APP_DATABASE.deleteDocument(
+        for (const course of courses) {
+          await APP_DATABASE.deleteDocument(
             "user_data",
             "user_courses",
             course.$id
           );
-        });
-
-        await Promise.all(promises);
+        }
       } catch (error) {
         console.error(error);
         SNACKBAR.add({
-          message: error.message,
+          text: error.message,
           type: "error",
         });
       }
@@ -283,7 +281,7 @@ export default {
     const addMajorToUser = async () => {
       if (data.selectedUni.$id === "" || data.selectedMajor.$id === "") {
         SNACKBAR.add({
-          message: "Bitte wähle eine Uni und einen Studiengang aus.",
+          text: "Bitte wähle eine Uni und einen Studiengang aus.",
           type: "error",
         });
         return;
@@ -311,7 +309,7 @@ export default {
       } catch (error) {
         console.error(error);
         SNACKBAR.add({
-          message: error.message,
+          text: error.message,
           type: "error",
         });
       }
