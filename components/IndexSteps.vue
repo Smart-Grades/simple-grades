@@ -84,7 +84,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6 text-white || sm:w-10 sm:h-10"
+            class="w-6 h-6 text-white sm:w-10 sm:h-10"
           >
             <path
               stroke-linecap="round"
@@ -95,14 +95,12 @@
         </div>
 
         <div
-          class="flex flex-col items-center || md:ml-5 md:items-start || xl:items-center xl:ml-0"
+          class="flex flex-col items-center md:ml-5 md:items-start xl:items-center xl:ml-0"
         >
-          <h2
-            class="font-main font-extrabold text-xl text-white || sm:text-2xl"
-          >
+          <h2 class="font-main font-extrabold text-xl text-white sm:text-2xl">
             Schritt 3
           </h2>
-          <p class="font-main text-white || sm:text-lg">
+          <p class="font-main text-white sm:text-lg">
             Füge deine Noten hinzu und tracke deinen Fortschritt!
           </p>
         </div>
@@ -110,9 +108,9 @@
     </div>
 
     <!-- MacBook-Illustration -->
-    <div class="mb-1 flex justify-center || 2xl:mb-20">
+    <div class="mb-1 flex justify-center 2xl:mb-20">
       <img
-        class="w-[40rem] || sm:w-[42rem] || md:[50rem] || lg:w-[62rem] || xl:w-[70rem]"
+        class="w-[40rem] sm:w-[42rem] md:[50rem] lg:w-[62rem] xl:w-[70rem]"
         src="/assets/img/macbookpro-dashboard.png"
         alt="illustartion-macbook"
       />
