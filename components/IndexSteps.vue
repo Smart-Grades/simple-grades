@@ -2,7 +2,7 @@
   <div>
     <!-- Steps-Steps -->
     <div
-      class="mb-16 px-6 space-y-8 sm:mb-28 sm:px-12 sm:space-y-14 md:px-20 xl:px-24 xl:space-y-0 xl:flex xl:justify-between xl:items-center 2xl:px-44"
+      class="text-center mb-16 px-6 space-y-8 sm:mb-28 sm:px-12 sm:space-y-14 md:px-20 xl:px-24 xl:space-y-0 xl:flex xl:justify-between xl:items-center 2xl:px-44"
     >
       <div
         class="flex flex-col items-center md:flex-row xl:flex-col xl:w-[425px]"
@@ -33,7 +33,7 @@
             Schritt 1
           </h2>
           <p class="font-main text-white sm:text-lg">
-            Registriere dich oder melde dich an!
+            Erstelle dir einen Account oder melde dich an!
           </p>
         </div>
       </div>
@@ -67,7 +67,7 @@
             Schritt 2
           </h2>
           <p class="font-main text-white sm:text-lg">
-            Wähle deine Universität und dein Studienfach!
+            Wähle deine Universität und dein Studiengang!
           </p>
         </div>
       </div>
@@ -110,7 +110,7 @@
     </div>
 
     <!-- MacBook-Illustration -->
-    <div class="mb-4 flex justify-center || 2xl:mb-20">
+    <div class="mb-1 flex justify-center || 2xl:mb-20">
       <img
         class="w-[40rem] || sm:w-[42rem] || md:[50rem] || lg:w-[62rem] || xl:w-[70rem]"
         src="/assets/img/macbookpro-dashboard.png"
