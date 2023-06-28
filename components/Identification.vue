@@ -253,7 +253,7 @@ export default {
       const PRE_COURSES_DATA = await APP_DATABASE.listDocuments(
         "uni_data",
         "course_data",
-        [Query.equal("major_id", data.majorInput.$id)]
+        [Query.limit(100), Query.equal("major_id", data.majorInput.$id)]
       );
 
       try {
