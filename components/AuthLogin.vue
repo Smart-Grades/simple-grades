@@ -109,11 +109,7 @@
             Besitzt du noch keinen Account?
           </a>
 
-<<<<<<< HEAD
-          <a href="#" class="text-sm text-gray-200 hover:underline">
-=======
           <a href="/restore" class="text-sm text-gray-200 hover:underline">
->>>>>>> dev
             Passwort vergessen?
           </a>
         </div>
