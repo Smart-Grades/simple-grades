@@ -1,7 +1,7 @@
 <template>
   <transition name="modal-fade">
     <div
-      class="fixed top-0 bottom-0 left-0 right-0 flex justify-center items-center bg-[#000000da]"
+      class="z-50 fixed top-0 bottom-0 left-0 right-0 flex justify-center items-center bg-[#000000da]"
     >
       <div
         class="text-white text-center bg-dark h-fit w-[500px] py-[60px] px-8 rounded-3xl"
