@@ -23,7 +23,7 @@
       <button
         class="mt-4 py-4 w-full bg-fom rounded-lg text-white font-bold cusor-pointer text-sm md:mt-8 md:w-[179px]"
       >
-        Download Excel
+        Download CSV
       </button>
     </div>
   </div>
