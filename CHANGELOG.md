@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.0](https://github.com/Smart-Grades/simple-grades/compare/v0.1.0...v0.2.0) (2023-06-20)
+
+
+### Features
+
+* create password reset page ([#30](https://github.com/Smart-Grades/simple-grades/issues/30)) ([07cb919](https://github.com/Smart-Grades/simple-grades/commit/07cb9196cb6b4892a9c68bb0e1cfed70e4a27711))
+* create password reset page ([#30](https://github.com/Smart-Grades/simple-grades/issues/30)) ([b578f59](https://github.com/Smart-Grades/simple-grades/commit/b578f59aade32a027289b42d16a91a054f0da66d))
+* create Password Reset Page ([#31](https://github.com/Smart-Grades/simple-grades/issues/31)) ([7f790ab](https://github.com/Smart-Grades/simple-grades/commit/7f790abd8e8a587f1153434f71108a350c719b03))
+* create Password Reset Page ([#31](https://github.com/Smart-Grades/simple-grades/issues/31)) ([e0daa7a](https://github.com/Smart-Grades/simple-grades/commit/e0daa7ab576056bb94460296d1e1eade4e4970c3))
+* implement filter/search function with dropdown menu ([#33](https://github.com/Smart-Grades/simple-grades/issues/33)) ([046c172](https://github.com/Smart-Grades/simple-grades/commit/046c17291e63b630cefb6b4a9f9a906db478ac97))
+* implement filter/search function with dropdown menu ([#33](https://github.com/Smart-Grades/simple-grades/issues/33)) ([10d8c6c](https://github.com/Smart-Grades/simple-grades/commit/10d8c6c7a1786155d8168f1be63813b1038f79d3))
+
+
+### Bug Fixes
+
+* resolve merge conflict in package-lock.json ([6017bd9](https://github.com/Smart-Grades/simple-grades/commit/6017bd9ec37b1a6a498c7484aa2f1293846a05b2))
+
 ## 0.1.0 (2023-06-03)
 
 ### Features
