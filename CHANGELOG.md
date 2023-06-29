@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/Smart-Grades/simple-grades/compare/v1.0.0...v1.1.0) (2023-06-29)
+
+
+### Features
+
+* update MacBook landing page with new dashboard look ([#72](https://github.com/Smart-Grades/simple-grades/issues/72)) ([b198cd6](https://github.com/Smart-Grades/simple-grades/commit/b198cd6bd74a55a183363821ed6cfe313d45179c))
+
+
+### Bug Fixes
+
+* **Dashboard:** resolve issue with `vue-float-label` package ([#70](https://github.com/Smart-Grades/simple-grades/issues/70)) ([dcc0fcd](https://github.com/Smart-Grades/simple-grades/commit/dcc0fcd32c0d48d4aeb5a3d5e68432c96d12e3ae))
+
 ## [1.0.0](https://github.com/Smart-Grades/simple-grades/compare/v0.2.0...v1.0.0) (2023-06-29)
 
 
