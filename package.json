@@ -1,7 +1,7 @@
 {
   "name": "simple-grades",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
