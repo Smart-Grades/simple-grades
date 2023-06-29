@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="">
     <div class="">
       <div class="mb-2 -ml-3">
         <NuxtLink to="/">
           <img
             src="/assets/img/logo.png"
             alt=""
-            class="w-16 h-16 hover:scale-110 duration-300 cursor-pointer ease-in"
+            class="hidden xl:block w-16 h-16 hover:scale-110 duration-300 cursor-pointer ease-in"
           />
         </NuxtLink>
       </div>
@@ -16,9 +16,6 @@
         <div class="mb-6 flex-col items-center justify-center">
           <p class="font-main text-xl text-white font-bold cursor-pointer">
             Neue Email?
-          </p>
-          <p class="font-main text-xl text-white font-bold cursor-pointer">
-            Neues Passwort?
           </p>
         </div>
 
@@ -43,9 +40,23 @@
                 />
               </div>
             </div>
+
+            <div class="mt-8">
+              <button
+                class="w-full px-6 py-3 text-sm font-medium text-white capitalize duration-500 ease-out-in transform bg-fom rounded-lg hover:opacity-80"
+                @click="showConfirmModal = true"
+              >
+                Neuladen
+              </button>
+            </div>
           </div>
 
-          <div class="mt-4">
+          <div class="mt-20">
+            <div class="mb-6 flex-col items-center justify-center">
+              <p class="font-main text-xl text-white font-bold cursor-pointer">
+                Neues Passwort?
+              </p>
+            </div>
             <div class="mb-3">
               <p class="text-sm text-gray-300 font-semibold mb-1">
                 Neues Passwort
