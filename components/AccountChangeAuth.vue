@@ -34,9 +34,22 @@
                 <span class="absolute px-4 scale-150"> 📧 </span>
 
                 <input
+                  v-model="mailData.email"
                   type="email"
                   class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                   placeholder="Neue Email"
+                />
+              </div>
+
+              <div class="relative flex items-center">
+                <span class="absolute px-4 mb-1 scale-150"> 🔒 </span>
+
+                <input
+                  id="searchInputMajor"
+                  v-model="mailData.password"
+                  type="password"
+                  class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+                  placeholder="Aktuelles Passwort"
                 />
               </div>
             </div>
@@ -44,9 +57,9 @@
             <div class="mt-8">
               <button
                 class="w-full px-6 py-3 text-sm font-medium text-white capitalize duration-500 ease-out-in transform bg-fom rounded-lg hover:opacity-80"
-                @click="showConfirmModal = true"
+                @click="handleMailUpdate()"
               >
-                Neuladen
+                Change E-Mail
               </button>
             </div>
           </div>
@@ -71,6 +84,7 @@
 
                 <input
                   id="searchInputMajor"
+                  v-model="passwordData.currentPassword"
                   type="password"
                   class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                   placeholder="Aktuelles Passwort"
@@ -82,6 +96,7 @@
 
                 <input
                   id="searchInputMajor"
+                  v-model="passwordData.newPassword"
                   type="password"
                   class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                   placeholder="Neues Passwort"
@@ -93,6 +108,7 @@
 
                 <input
                   id="searchInputMajor"
+                  v-model="passwordData.newPasswordRepeat"
                   type="password"
                   class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                   placeholder="Neues Passwort wiederholen"
@@ -107,11 +123,101 @@
     <div class="mt-8">
       <button
         class="w-full px-6 py-3 text-sm font-medium text-white capitalize duration-500 ease-out-in transform bg-fom rounded-lg hover:opacity-80"
-        @click="showConfirmModal = true"
+        @click="handlePasswordUpdate()"
       >
-        Neuladen
+        Change Password
       </button>
     </div>
   </div>
 </template>
 
+<script setup>
+import { Account, Client } from "appwrite";
+
+const APP_CLIENT = new Client();
+const APP_ACCOUNT = new Account(APP_CLIENT);
+const RUNTIME_CONFIG = useRuntimeConfig();
+const SNACKBAR = useSnackbar();
+
+APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
+  RUNTIME_CONFIG.public.appwriteProject
+);
+
+const mailData = reactive({
+  email: "",
+  password: "",
+});
+
+const passwordData = reactive({
+  currentPassword: "",
+  newPassword: "",
+  newPasswordRepeat: "",
+});
+
+const updateEmail = async (mail, password) => {
+  try {
+    const RES = await APP_ACCOUNT.updateEmail(mail, password);
+    if (RES.$id) {
+      SNACKBAR.add({
+        title: "Email wurde geändert",
+        type: "success",
+      });
+    } else {
+      SNACKBAR.add({
+        title: "Email konnte nicht geändert werden",
+        type: "error",
+      });
+    }
+  } catch (error) {
+    SNACKBAR.add({
+      title: "Email konnte nicht geändert werden",
+      type: "error",
+    });
+  }
+};
+
+const updatePassword = async (currentPassword, newPassword) => {
+  try {
+    const RES = await APP_ACCOUNT.updatePassword(newPassword, currentPassword);
+    if (RES.$id) {
+      SNACKBAR.add({
+        title: "Passwort wurde geändert",
+        type: "success",
+      });
+    } else {
+      SNACKBAR.add({
+        title: "Passwort konnte nicht geändert werden",
+        type: "error",
+      });
+    }
+  } catch (error) {
+    SNACKBAR.add({
+      title: "Passwort konnte nicht geändert werden",
+      type: "error",
+    });
+  }
+};
+
+const handleMailUpdate = () => {
+  if (mailData.email && mailData.password) {
+    updateEmail(mailData.email, mailData.password);
+  }
+};
+
+const handlePasswordUpdate = () => {
+  if (
+    passwordData.currentPassword &&
+    passwordData.newPassword &&
+    passwordData.newPasswordRepeat
+  ) {
+    if (passwordData.newPassword === passwordData.newPasswordRepeat) {
+      updatePassword(passwordData.currentPassword, passwordData.newPassword);
+    } else {
+      SNACKBAR.add({
+        title: "Passwörter stimmen nicht überein",
+        type: "error",
+      });
+    }
+  }
+};
+</script>
