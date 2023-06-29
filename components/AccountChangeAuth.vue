@@ -154,14 +154,20 @@ const passwordData = reactive({
   newPasswordRepeat: "",
 });
 
+const getVerifyUrl = () => {
+  return `${window.location.protocol}//${window.location.host}/verify`;
+};
+
 const updateEmail = async (mail, password) => {
   try {
     const RES = await APP_ACCOUNT.updateEmail(mail, password);
     if (RES.$id) {
+      await APP_ACCOUNT.createVerification(getVerifyUrl());
       SNACKBAR.add({
-        title: "Email wurde geändert",
+        title: "Bitte verifiziere deine neue Email",
         type: "success",
       });
+      await navigateTo("/logout");
     } else {
       SNACKBAR.add({
         title: "Email konnte nicht geändert werden",
@@ -184,6 +190,7 @@ const updatePassword = async (currentPassword, newPassword) => {
         title: "Passwort wurde geändert",
         type: "success",
       });
+      await navigateTo("/logout");
     } else {
       SNACKBAR.add({
         title: "Passwort konnte nicht geändert werden",
