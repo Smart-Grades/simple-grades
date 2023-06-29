@@ -63,11 +63,13 @@
       </div>
 
       <svg
+        v-if="id !== 'new'"
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
         class="w-8 h-8 fill-gray-200 hover:fill-red-800 cursor-pointer hover:scale-125 active:scale-110 duration-300 ease-out-in"
         viewBox="0 0 1280.000000 1280.000000"
         preserveAspectRatio="xMidYMid meet"
+        @click="$emit('delete')"
       >
         <g
           transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
@@ -82,6 +84,7 @@
           />
         </g>
       </svg>
+      <div v-if="id === 'new'" class="w-8"></div>
     </div>
   </div>
 </template>

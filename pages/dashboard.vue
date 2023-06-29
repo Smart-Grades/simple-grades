@@ -12,6 +12,7 @@
           @update:course="updateCourse(course.$id, 'name', $event)"
           @update:credits="updateCourse(course.$id, 'ects', parseFloat($event))"
           @update:grade="updateCourse(course.$id, 'grade', parseFloat($event))"
+          @delete="deleteCourse(course.$id)"
         />
       </div>
       <DashboardTable
@@ -171,6 +172,20 @@ export default {
       }
     };
 
+    const deleteCourse = async (id) => {
+      try {
+        const APP_DATABASE = new Databases(APP_CLIENT);
+        await APP_DATABASE.deleteDocument("user_data", "user_courses", id);
+        SNACKBAR.add({
+          text: "Deleted course! 🎉",
+          type: "success",
+        });
+        await getUserCourses();
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
     const exportCourses = () => {
       const csvContent =
         "data:text/csv;charset=utf-8," + encodeURI(generateCsv());
@@ -203,6 +218,7 @@ export default {
       clearValues,
       updateCourse,
       exportCourses,
+      deleteCourse,
     };
   },
 };
