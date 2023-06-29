@@ -2,7 +2,11 @@
   <div>
     <div class="mb-6 flex justify-center">
       <NuxtLink to="/">
-        <img src="/assets/img/logo.png" class="w-20 h-20 hover:scale-110 duration-300 ease-out-in cursor-pointer" alt="SmartGrades-Logo">
+        <img
+          src="/assets/img/logo.png"
+          class="w-20 h-20 hover:scale-110 duration-300 ease-out-in cursor-pointer"
+          alt="SmartGrades-Logo"
+        />
       </NuxtLink>
     </div>
 
@@ -211,7 +215,7 @@ export default {
       try {
         const RES = await APP_DATABASE.listDocuments("uni_data", "major_data", [
           Query.limit(100),
-          Query.sort("name", "asc"),
+          Query.orderAsc("name"),
           Query.equal("uni_id", uniId),
         ]);
 
