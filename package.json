@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "appwrite": "^11.0.0",
-    "nuxt-snackbar": "^1.0.3",
-    "vue-float-label": "^1.6.1"
+    "nuxt-snackbar": "^1.0.3"
   }
 }
