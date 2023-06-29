@@ -8,7 +8,7 @@
         Der perfekte Überblick <br />für die Uni.
       </h1>
       <h5
-        class="font-main text-gray-200 text-base leading-10 sm:text-xl md:text-2xl"
+        class="font-main text-gray-200 text-base sm:text-xl md:text-2xl"
       >
         Track deine Noten, so einfach wie noch nie!
       </h5>

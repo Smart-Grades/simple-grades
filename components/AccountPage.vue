@@ -3,20 +3,7 @@
     <div class=""></div>
     <div class="mb-2">
       <NuxtLink to="/">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-12 h-12 text-white"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
-          />
-        </svg>
+        <img src="/assets/img/logo.png" alt="" class="w-16 h-16 hover:scale-110 duration-300 cursor-pointer ease-in">
       </NuxtLink>
     </div>
 
@@ -34,7 +21,7 @@
       <div class="w-80 md:w-96 lg:w-[500px]">
         <div class="">
           <div class="mb-3">
-            <p class="text-sm text-gray-300 font-semibold mb-1">
+            <p class="text-sm text-white font-semibold mb-1">
               Neue Universität
             </p>
             <p class="border-b-2 w-1/2"></p>
@@ -47,36 +34,26 @@
 
               <input
                 id="searchInputUni"
-                v-model="uniInput"
+                v-model="selectedUni.name"
                 type="text"
-                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Deine Universität"
-                @keyup="searchList('searchInputUni', 'myUniList')"
               />
             </div>
 
-            <!-- SEARCH LIST MAJOR -->
+            <!-- SEARCH LIST Uni -->
             <ul
-              id="myUniList"
-              class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
+              v-if="filteredUnis.length > 0"
+              id="myMajorList"
+              class="mt-2 block w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-200 cursor-pointer"
             >
-              <li>
-                <a href="#" @click="() => takeUni('RWTH Aachen')"
-                  >🎓 RWTH Aachen</a
-                >
-              </li>
-              <li>
-                <a href="#" @click="() => takeUni('FOM')">🎓 FOM</a>
-              </li>
-              <li>
-                <a href="#" @click="() => takeUni('Universität Duisburg-Essen')"
-                  >🎓 Universität Duisburg-Essen</a
-                >
-              </li>
-              <li>
-                <a href="#" @click="() => takeUni('Universität Münster')"
-                  >🎓 Universität Münster</a
-                >
+              <li
+                v-for="option in filteredUnis"
+                :key="option.$id"
+                @click="selectUni(option)"
+                class="last:border-b-0 border-b border-gray-400 py-2"
+              >
+                {{ option.name }}
               </li>
             </ul>
           </div>
@@ -84,7 +61,7 @@
 
         <div class="mt-4">
           <div class="mb-3">
-            <p class="text-sm text-gray-300 font-semibold mb-1">
+            <p class="text-sm text-white font-semibold mb-1">
               Neuer Studiengang
             </p>
             <p class="border-b-2 w-1/2"></p>
@@ -97,84 +74,268 @@
 
               <input
                 id="searchInputMajor"
-                v-model="majorInput"
+                v-model="selectedMajor.name"
                 type="text"
-                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-gray-300 border-gray-600 focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full py-3 border rounded-lg px-11 bg-transparent text-white border-white focus:border-fom focus:ring-fom focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Dein Studiengang"
-                @keyup="searchList('searchInputMajor', 'myMajorList')"
               />
             </div>
 
             <!-- SEARCH LIST MAJOR -->
             <ul
+              v-if="filteredMajor.length > 0"
               id="myMajorList"
-              class="mt-2 hidden w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-300"
+              class="mt-2 block w-full py-3 border border-gray-600 rounded-lg px-4 bg-transparent text-gray-200 cursor-pointer"
             >
-              <li>
-                <a href="#" @click="() => takeMajor('Wirtschaftsinformatik')"
-                  >🎓 Wirtschaftsinformatik</a
-                >
-              </li>
-              <li><a href="#" @click="() => takeMajor('Bwl')">🎓 Bwl</a></li>
-              <li><a href="#" @click="() => takeMajor('Vwl')">🎓 Vwl</a></li>
-              <li>
-                <a href="#" @click="() => takeMajor('Computer Engineering')"
-                  >🎓 Computer Engineering</a
-                >
+              <li
+                v-for="option in filteredMajor"
+                :key="option.$id"
+                @click="selectMajor(option)"
+                class="last:border-b-0 border-b border-gray-400 py-2"
+              >
+                {{ option.name }}
               </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
+    <div class="mt-8">
+      <button
+        class="w-full px-6 py-3 text-sm font-medium text-white capitalize duration-500 ease-out-in transform bg-fom rounded-lg hover:opacity-80"
+        @click="showConfirmModal = true"
+      >
+        Neuladen
+      </button>
+    </div>
+    <AccountConfirmModal
+      v-show="showConfirmModal"
+      :uni="selectedUni"
+      :major="selectedMajor"
+      @accept="doChange(true)"
+      @decline="doChange(false)"
+    />
   </div>
 </template>
 
-<script setup>
-const uniInput = ref("");
-const majorInput = ref("");
+<script>
+import { Account, Client, Databases, ID, Query } from "appwrite";
+import { onMounted, reactive } from "vue";
+import AccountConfirmModal from "@/components/AccountConfirmModal.vue";
 
-function takeUni(university) {
-  uniInput.value = university;
-  document.getElementById("myUniList").style.display = "none";
-}
+export default {
+  components: {
+    AccountConfirmModal,
+  },
+  setup() {
+    const APP_CLIENT = new Client();
+    const APP_ACCOUNT = new Account(APP_CLIENT);
+    const APP_DATABASE = new Databases(APP_CLIENT);
+    const RUNTIME_CONFIG = useRuntimeConfig();
+    const SNACKBAR = useSnackbar();
 
-function takeMajor(major) {
-  majorInput.value = major;
-  document.getElementById("myMajorList").style.display = "none";
-}
+    APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
+      RUNTIME_CONFIG.public.appwriteProject
+    );
 
-function searchList(inputElement, listElement) {
-  // Declare variables
-  const INPUT = document.getElementById(inputElement);
-  const FILTER = INPUT.value.toUpperCase();
-  const UL = document.getElementById(listElement);
-  const LI = UL.getElementsByTagName("li");
+    const data = reactive({
+      selectedUni: {
+        name: "",
+        token: "",
+        $id: "",
+      },
+      unis: [],
+      studyCourses: [],
+      selectedMajor: {
+        name: "",
+        $id: "",
+      },
+      showConfirmModal: false,
+    });
 
-  if (INPUT.value.length === 0) {
-    UL.style.display = "none";
-    return;
-  } else {
-    UL.style.display = "block";
-  }
+    const filteredUnis = computed(() => {
+      const search = data.selectedUni.name.toUpperCase().trim();
+      return data.unis
+        .filter((option) => {
+          return (
+            option.name.toUpperCase().includes(search) ||
+            option.token.toUpperCase().includes(search)
+          );
+        })
+        .slice(0, 5);
+    });
 
-  let count = 0;
+    const filteredMajor = computed(() => {
+      const search = data.selectedMajor.name.toUpperCase().trim();
+      return data.studyCourses
+        .filter((option) => {
+          return option.name.toUpperCase().includes(search);
+        })
+        .slice(0, 5);
+    });
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (let i = 0; i < LI.length; i++) {
-    const A = LI[i].getElementsByTagName("a")[0];
-    if (A.innerHTML.toUpperCase().includes(FILTER)) {
-      LI[i].style.display = "block";
-      count++;
-    } else {
-      LI[i].style.display = "none";
-    }
-  }
+    const selectUni = (option) => {
+      data.selectedUni = option;
+      loadStudyCourses(option.$id);
+      data.unis = [];
+    };
+    const selectMajor = (option) => {
+      data.selectedMajor = option;
+      data.studyCourses = [];
+    };
 
-  if (count === 0) {
-    UL.style.display = "none";
-  } else {
-    UL.style.display = "block";
-  }
-}
+    const listUnis = async () => {
+      const APP_DATABASE = new Databases(APP_CLIENT);
+      try {
+        const RES = await APP_DATABASE.listDocuments("uni_data", "uni");
+        data.unis = RES.documents.map((doc) => ({
+          name: doc.name,
+          token: doc.token,
+          $id: doc.$id,
+        }));
+      } catch (error) {
+        console.error(error);
+        SNACKBAR.add({
+          text: error.message,
+          type: "error",
+        });
+      }
+    };
+
+    const loadStudyCourses = async (uniId) => {
+      const APP_DATABASE = new Databases(APP_CLIENT);
+      try {
+        const RES = await APP_DATABASE.listDocuments("uni_data", "major_data", [
+          Query.limit(100),
+          Query.orderAsc("name"),
+          Query.equal("uni_id", uniId),
+        ]);
+        data.studyCourses = RES.documents.map((doc) => ({
+          name: doc.name,
+          $id: doc.$id,
+        }));
+      } catch (error) {
+        console.error(error);
+        SNACKBAR.add({
+          text: error.message,
+          type: "error",
+        });
+      }
+    };
+
+    const getUserCourses = async (userId) => {
+      try {
+        const courses = await APP_DATABASE.listDocuments(
+          "user_data",
+          "user_courses",
+          [Query.limit(100), Query.equal("user_id", userId)]
+        );
+
+        return courses.documents;
+      } catch (error) {
+        console.error(error);
+        SNACKBAR.add({
+          text: error.message,
+          type: "error",
+        });
+      }
+    };
+
+    const deleteUserCourses = async (userId, courses) => {
+      try {
+        for (const course of courses) {
+          await APP_DATABASE.deleteDocument(
+            "user_data",
+            "user_courses",
+            course.$id
+          );
+        }
+      } catch (error) {
+        console.error(error);
+        SNACKBAR.add({
+          text: error.message,
+          type: "error",
+        });
+      }
+    };
+
+    const changeUserCourse = async () => {
+      const USER = await APP_ACCOUNT.get();
+
+      const courses = await getUserCourses(USER.$id);
+      await deleteUserCourses(USER.$id, courses);
+      await addMajorToUser();
+    };
+
+    const addMajorToUser = async () => {
+      if (data.selectedUni.$id === "" || data.selectedMajor.$id === "") {
+        SNACKBAR.add({
+          text: "Bitte wähle eine Uni und einen Studiengang aus.",
+          type: "error",
+        });
+        return;
+      }
+      const PRE_COURSES_DATA = await APP_DATABASE.listDocuments(
+        "uni_data",
+        "course_data",
+        [Query.limit(100), Query.equal("major_id", data.selectedMajor.$id)]
+      );
+      try {
+        const USER = await APP_ACCOUNT.get();
+        for (const C of PRE_COURSES_DATA.documents) {
+          await APP_DATABASE.createDocument(
+            "user_data",
+            "user_courses",
+            ID.unique(),
+            {
+              user_id: USER.$id,
+              name: C.name,
+              ects: C.ects,
+            }
+          );
+        }
+        await navigateTo("/dashboard");
+      } catch (error) {
+        console.error(error);
+        SNACKBAR.add({
+          text: error.message,
+          type: "error",
+        });
+      }
+    };
+
+    const doChange = async (accept) => {
+      if (accept) {
+        changeUserCourse();
+      } else {
+        data.selectedUni = {
+          name: "",
+          token: "",
+          $id: "",
+        };
+        data.selectedMajor = {
+          name: "",
+          $id: "",
+        };
+        data.unis = [];
+        data.studyCourses = [];
+        await listUnis();
+      }
+      data.showConfirmModal = false;
+    };
+
+    onMounted(async () => {
+      await listUnis();
+    });
+    return {
+      ...toRefs(data),
+      filteredUnis,
+      filteredMajor,
+      selectUni,
+      selectMajor,
+      changeUserCourse,
+      doChange,
+    };
+  },
+};
 </script>
