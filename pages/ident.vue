@@ -7,6 +7,7 @@
 </template>
 
 <script setup>
+// If the user is not logged in, navigate to the login page
 const isLoggedIn = useState("isLoggedIn");
 
 if (!isLoggedIn.value) {

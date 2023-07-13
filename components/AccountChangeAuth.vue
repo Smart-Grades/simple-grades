@@ -158,6 +158,11 @@ const getVerifyUrl = () => {
   return `${window.location.protocol}//${window.location.host}/verify`;
 };
 
+/**
+ * Update the email of the current user
+ * @param {string} mail New email
+ * @param {string} password Current password
+ */
 const updateEmail = async (mail, password) => {
   try {
     const RES = await APP_ACCOUNT.updateEmail(mail, password);
@@ -182,6 +187,11 @@ const updateEmail = async (mail, password) => {
   }
 };
 
+/**
+ * Update the password of the current user
+ * @param {string} currentPassword Current password
+ * @param {string} newPassword New password
+ */
 const updatePassword = async (currentPassword, newPassword) => {
   try {
     const RES = await APP_ACCOUNT.updatePassword(newPassword, currentPassword);
@@ -205,12 +215,18 @@ const updatePassword = async (currentPassword, newPassword) => {
   }
 };
 
+/**
+ * Handle the update of the email
+ */
 const handleMailUpdate = () => {
   if (mailData.email && mailData.password) {
     updateEmail(mailData.email, mailData.password);
   }
 };
 
+/**
+ * Handle the update of the password
+ */
 const handlePasswordUpdate = () => {
   if (
     passwordData.currentPassword &&

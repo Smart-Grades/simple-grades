@@ -64,29 +64,42 @@
 <script setup>
 import { Account, Client } from "appwrite";
 
+// Initialize client, account and snackbar
 const APP_CLIENT = new Client();
 const APP_ACCOUNT = new Account(APP_CLIENT);
 const RUNTIME_CONFIG = useRuntimeConfig();
 const SNACKBAR = useSnackbar();
 
+// Connect to Appwrite
 APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
   RUNTIME_CONFIG.public.appwriteProject
 );
 
+// Get query params
 const route = useRoute();
 
+// Check if query params are set
 const userId = route.query.userId;
 const secret = route.query.secret;
 
+// Redirect to home if query params are not set
 if (!userId || !secret) {
   await navigateTo("/");
 }
 
+// Initialize reactive variables
 const INPUT = reactive({
   password: "",
   passwordConfirm: "",
 });
 
+/**
+ * Reset password
+ * @param {string} userId User ID
+ * @param {string} secret Secret
+ * @param {string} password New password
+ * @param {string} passwordConfirm New password confirm
+ */
 const resetPassword = async (userId, secret, password, passwordConfirm) => {
   try {
     await APP_ACCOUNT.updateRecovery(userId, secret, password, passwordConfirm);
@@ -110,6 +123,9 @@ const resetPassword = async (userId, secret, password, passwordConfirm) => {
   }
 };
 
+/**
+ * Handle input value and validate them
+ */
 const handleInputChange = async () => {
   if (!INPUT.password || !INPUT.passwordConfirm) {
     SNACKBAR.add({

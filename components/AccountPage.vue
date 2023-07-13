@@ -3,7 +3,11 @@
     <div class=""></div>
     <div class="mb-2">
       <NuxtLink to="/">
-        <img src="/assets/img/logo.png" alt="" class="w-16 h-16 hover:scale-110 duration-300 cursor-pointer ease-in">
+        <img
+          src="/assets/img/logo.png"
+          alt=""
+          class="w-16 h-16 hover:scale-110 duration-300 cursor-pointer ease-in"
+        />
       </NuxtLink>
     </div>
 
@@ -124,20 +128,24 @@ import { onMounted, reactive } from "vue";
 import AccountConfirmModal from "@/components/AccountConfirmModal.vue";
 
 export default {
+  // Declare component use
   components: {
     AccountConfirmModal,
   },
   setup() {
+    // This code initializes the client, database, account and snackbar
     const APP_CLIENT = new Client();
     const APP_ACCOUNT = new Account(APP_CLIENT);
     const APP_DATABASE = new Databases(APP_CLIENT);
     const RUNTIME_CONFIG = useRuntimeConfig();
     const SNACKBAR = useSnackbar();
 
+    // Connect to Appwrite
     APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
       RUNTIME_CONFIG.public.appwriteProject
     );
 
+    // Declare reactive data
     const data = reactive({
       selectedUni: {
         name: "",
@@ -153,6 +161,10 @@ export default {
       showConfirmModal: false,
     });
 
+    /**
+     * This function loads the univerities from the database
+     * and transforms them into an array of objects
+     */
     const filteredUnis = computed(() => {
       const search = data.selectedUni.name.toUpperCase().trim();
       return data.unis
@@ -165,6 +177,10 @@ export default {
         .slice(0, 5);
     });
 
+    /**
+     * This function loads the study majors from the database
+     * and transforms them into an array of objects
+     */
     const filteredMajor = computed(() => {
       const search = data.selectedMajor.name.toUpperCase().trim();
       return data.studyCourses
@@ -174,16 +190,26 @@ export default {
         .slice(0, 5);
     });
 
+    /**
+     * Handles the selection of a university
+     */
     const selectUni = (option) => {
       data.selectedUni = option;
       loadStudyCourses(option.$id);
       data.unis = [];
     };
+
+    /**
+     * Handles the selection of a study major
+     */
     const selectMajor = (option) => {
       data.selectedMajor = option;
       data.studyCourses = [];
     };
 
+    /**
+     * This function loads the universities from the database
+     */
     const listUnis = async () => {
       const APP_DATABASE = new Databases(APP_CLIENT);
       try {
@@ -202,6 +228,9 @@ export default {
       }
     };
 
+    /**
+     * This function loads the study majors from the database
+     */
     const loadStudyCourses = async (uniId) => {
       const APP_DATABASE = new Databases(APP_CLIENT);
       try {
@@ -223,6 +252,9 @@ export default {
       }
     };
 
+    /**
+     * This function loads the user data from the database
+     */
     const getUserCourses = async (userId) => {
       try {
         const courses = await APP_DATABASE.listDocuments(
@@ -241,6 +273,9 @@ export default {
       }
     };
 
+    /**
+     * This function deletes the user data from the database
+     */
     const deleteUserCourses = async (userId, courses) => {
       try {
         for (const course of courses) {
@@ -259,6 +294,9 @@ export default {
       }
     };
 
+    /**
+     * Changes the user course
+     */
     const changeUserCourse = async () => {
       const USER = await APP_ACCOUNT.get();
 
@@ -267,6 +305,9 @@ export default {
       await addMajorToUser();
     };
 
+    /**
+     * Adds the selected major to the user
+     */
     const addMajorToUser = async () => {
       if (data.selectedUni.$id === "" || data.selectedMajor.$id === "") {
         SNACKBAR.add({
@@ -304,6 +345,9 @@ export default {
       }
     };
 
+    /**
+     * This function handles the confirmation of the user course change
+     */
     const doChange = async (accept) => {
       if (accept) {
         changeUserCourse();

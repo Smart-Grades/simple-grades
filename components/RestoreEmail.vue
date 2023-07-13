@@ -3,20 +3,22 @@
     <!-- MAIN -->
     <form class="" @submit.prevent="handleInputChange">
       <div class="flex justify-start mb-2 mx-auto">
-          <NuxtLink to="/">
-            <div class="-ml-3">
-              <img src="/assets/img/logo.png" class="w-20 h-20 hover:scale-110 duration-300 ease-out-in" alt="SmartGrades-Logo">
-            </div>
-          </NuxtLink>
-        </div>
+        <NuxtLink to="/">
+          <div class="-ml-3">
+            <img
+              src="/assets/img/logo.png"
+              class="w-20 h-20 hover:scale-110 duration-300 ease-out-in"
+              alt="SmartGrades-Logo"
+            />
+          </div>
+        </NuxtLink>
+      </div>
 
       <div class="mb-6 flex-col items-center justify-center">
         <p class="font-main text-xl text-white font-bold">
           Passwort vergessen?
         </p>
-        <p class="font-main text-xl text-white font-bold">
-          Email angeben!
-        </p>
+        <p class="font-main text-xl text-white font-bold">Email angeben!</p>
       </div>
 
       <div class="w-80 md:w-96 lg:w-[500px]">
@@ -53,23 +55,31 @@
 <script setup>
 import { Account, Client } from "appwrite";
 
+// Initialize client, account and snackbar
 const APP_CLIENT = new Client();
 const APP_ACCOUNT = new Account(APP_CLIENT);
 const RUNTIME_CONFIG = useRuntimeConfig();
 const SNACKBAR = useSnackbar();
 
+// Connect to Appwrite
 APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
   RUNTIME_CONFIG.public.appwriteProject
 );
 
+// Reactive input
 const INPUT = reactive({
   email: "",
 });
 
+// Get verify url
 const getVerifyUrl = () => {
   return `${window.location.protocol}//${window.location.host}/reset`;
 };
 
+/**
+ * Send reset email
+ * @param {string} email User email
+ */
 const sendResetEmail = async (email) => {
   try {
     await APP_ACCOUNT.createRecovery(email, getVerifyUrl());
@@ -87,6 +97,9 @@ const sendResetEmail = async (email) => {
   }
 };
 
+/**
+ * Handle input change and validate input
+ */
 const handleInputChange = async () => {
   if (INPUT.email === "") {
     SNACKBAR.show({

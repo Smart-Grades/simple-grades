@@ -82,6 +82,7 @@
 <script setup>
 import { Account, Client } from "appwrite";
 
+// Initalizing client, account and snackbar
 const SWITCH_AUTH_PAGE = useState("toggleAuthPage");
 const isLoggedIn = useState("isLoggedIn");
 const APP_CLIENT = new Client();
@@ -89,20 +90,28 @@ const APP_ACCOUNT = new Account(APP_CLIENT);
 const RUNTIME_CONFIG = useRuntimeConfig();
 const SNACKBAR = useSnackbar();
 
+// Connecting to Appwrite
 APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
   RUNTIME_CONFIG.public.appwriteProject
 );
 
+// Redirecting to dashboard if user is logged in
 if (isLoggedIn.value) {
   navigateTo("/dashboard");
 }
 
+// Reactive variables
 const INPUT = reactive({
   mail: "",
   password: "",
 });
 const INPUT_ERRORS = ref(false);
 
+/**
+ * Logs in the user with the given mail and password.
+ * @param {string} mail User's mail
+ * @param {string} password User's password
+ */
 const login = async (mail, password) => {
   try {
     const RES = await APP_ACCOUNT.createEmailSession(mail, password);
@@ -128,10 +137,16 @@ const login = async (mail, password) => {
   }
 };
 
+/**
+ * Switches the auth form.
+ */
 const switchAuthForm = () => {
   SWITCH_AUTH_PAGE.value = !SWITCH_AUTH_PAGE.value;
 };
 
+/**
+ * Handles the input change.
+ */
 const handleInputChange = () => {
   INPUT_ERRORS.value = !(INPUT.mail && INPUT.password);
 

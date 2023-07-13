@@ -6,7 +6,11 @@
       <form class="w-full max-w-md" @submit.prevent="handleInputChange">
         <div class="flex justify-center mx-auto">
           <NuxtLink to="/">
-            <img src="/assets/img/logo.png" class="w-20 h-20 hover:scale-110 duration-300 ease-out-in" alt="SmartGrades-Logo">
+            <img
+              src="/assets/img/logo.png"
+              class="w-20 h-20 hover:scale-110 duration-300 ease-out-in"
+              alt="SmartGrades-Logo"
+            />
           </NuxtLink>
         </div>
 
@@ -28,9 +32,7 @@
         </div>
 
         <div class="relative flex items-center mt-6">
-          <span class="absolute px-4 scale-150">
-            📧
-          </span>
+          <span class="absolute px-4 scale-150"> 📧 </span>
 
           <input
             v-model="INPUT.email"
@@ -41,9 +43,7 @@
         </div>
 
         <div class="relative flex items-center mt-4">
-          <span class="absolute px-4 scale-150">
-            🔒
-          </span>
+          <span class="absolute px-4 scale-150"> 🔒 </span>
 
           <input
             v-model="INPUT.password"
@@ -54,9 +54,7 @@
         </div>
 
         <div class="relative flex items-center mt-4">
-          <span class="absolute px-4 scale-150">
-            🔒
-          </span>
+          <span class="absolute px-4 scale-150"> 🔒 </span>
 
           <input
             v-model="INPUT.passwordRepeat"
@@ -91,28 +89,40 @@
 <script setup>
 import { Account, Client, ID } from "appwrite";
 
+// Initalise client and account
 const APP_CLIENT = new Client();
 const APP_ACCOUNT = new Account(APP_CLIENT);
 const RUNTIME_CONFIG = useRuntimeConfig();
 
+// Connect to Appwrite
 APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
   RUNTIME_CONFIG.public.appwriteProject
 );
 
+// States
 const SWITCH_AUTH_PAGE = useState("toggleAuthPage");
 const isLoggedIn = useState("isLoggedIn");
 const SNACKBAR = useSnackbar();
 
+// Reactive variables
 const INPUT = reactive({
   email: "",
   password: "",
   passwordRepeat: "",
 });
 
+/**
+ * Returns the verification url
+ */
 const getVerifyUrl = () => {
   return `${window.location.protocol}//${window.location.host}/verify`;
 };
 
+/**
+ * Login with email and password
+ * @param {string} email Email address
+ * @param {string} password Password
+ */
 const login = async (email, password) => {
   console.log("login");
   let lIsLoggedIn = false;
@@ -129,6 +139,9 @@ const login = async (email, password) => {
   return lIsLoggedIn;
 };
 
+/**
+ * Logout
+ */
 const logout = async () => {
   console.log("logout");
   try {
@@ -140,6 +153,11 @@ const logout = async () => {
   }
 };
 
+/**
+ * Register with email and password
+ * @param {string} email Email address
+ * @param {string} password Password
+ */
 const register = async (email, password) => {
   console.log("register");
   try {
@@ -157,6 +175,9 @@ const register = async (email, password) => {
   }
 };
 
+/**
+ * Handle input values and check if they are valid
+ */
 const handleInputChange = async () => {
   if (!INPUT.email || !INPUT.password || !INPUT.passwordRepeat) {
     SNACKBAR.add({
@@ -178,6 +199,9 @@ const handleInputChange = async () => {
   }
 };
 
+/**
+ * Switch between login and register form
+ */
 const switchAuthForm = () => {
   SWITCH_AUTH_PAGE.value = !SWITCH_AUTH_PAGE.value;
 };

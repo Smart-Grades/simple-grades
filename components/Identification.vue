@@ -115,15 +115,18 @@ import { onMounted, reactive } from "vue";
 
 export default {
   setup() {
+    // Initialize client, account and snackbar
     const APP_CLIENT = new Client();
     const APP_ACCOUNT = new Account(APP_CLIENT);
     const RUNTIME_CONFIG = useRuntimeConfig();
     const SNACKBAR = useSnackbar();
 
+    // Connect to Appwrite
     APP_CLIENT.setEndpoint(RUNTIME_CONFIG.public.appwriteEndpoint).setProject(
       RUNTIME_CONFIG.public.appwriteProject
     );
 
+    // Check if user already has an introduction
     APP_ACCOUNT.getPrefs()
       .then(
         async (res) => {
@@ -143,6 +146,7 @@ export default {
         });
       });
 
+    // Initialize reactive data
     const data = reactive({
       selectedUni: {
         name: "",
@@ -157,6 +161,9 @@ export default {
       },
     });
 
+    /**
+     * Filter unis on type
+     */
     const filteredUnis = computed(() => {
       const search = data.selectedUni.name.toUpperCase().trim();
       return data.unis
@@ -169,6 +176,9 @@ export default {
         .slice(0, 5);
     });
 
+    /**
+     * Filter study majors on type
+     */
     const filteredMajor = computed(() => {
       const search = data.majorInput.name.toUpperCase().trim();
       return data.studyCourses
@@ -178,17 +188,20 @@ export default {
         .slice(0, 5);
     });
 
+    // Select uni and load study majors
     const selectUni = (option) => {
       data.selectedUni = option;
       loadStudyCourses(option.$id);
       data.unis = [];
     };
 
+    // Select study major
     const selectMajor = (option) => {
       data.majorInput = option;
       data.studyCourses = [];
     };
 
+    // List all unis
     const listUnis = async () => {
       const APP_DATABASE = new Databases(APP_CLIENT);
 
@@ -209,6 +222,7 @@ export default {
       }
     };
 
+    // Load study majors
     const loadStudyCourses = async (uniId) => {
       const APP_DATABASE = new Databases(APP_CLIENT);
 
@@ -232,6 +246,7 @@ export default {
       }
     };
 
+    // Add study major to user
     const addMajorToUser = async () => {
       if (data.selectedUni.$id === "" || data.majorInput.$id === "") {
         SNACKBAR.add({
